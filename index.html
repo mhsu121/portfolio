@@ -41,14 +41,14 @@
         <br><br>I currently work as a strategy consultant in San Francisco, where I help clients in various industries ranging from consumer products to tech to education solve business problems and create strategies for future growth.
       </h2>
       <p><a href="#" class="hero-btn">Let's connect</a></p>
-      <h5><a href="#projects">Scroll to explore some of my recent projects&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></a></h5>
+      <h5><a href="#projects">Click or scroll to explore some of my recent projects&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></a></h5>
     </div>
   </section>
 </header>
 
 <main role="main">
 <!-- projects -->
-  <section class="projects"><a name="projects"></a>
+  <section class="projects" id="projects">
     <ul class="container">
       <!-- projects -->
       <li class="one-half">
@@ -123,6 +123,47 @@
     </div>
   </div>
 </footer>
+
+<!-- JQuery -->
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 600, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+</script>
 
 </body>
 
