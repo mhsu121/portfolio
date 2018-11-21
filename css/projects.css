@@ -51,7 +51,7 @@ header nav ul > li > a:hover {
 }
 .hero .container {
   width: 360px;
-  background-color: rgba(250,250,250,0.6); /* 60% opacity white */
+  background-color: rgba(250,250,250,0.7); /* 70% opacity white */
   padding: 0px 25px;
 }
 @media (min-width: 768px) {
@@ -234,7 +234,6 @@ header nav ul > li > a:hover {
     color: #FFFFFF; /* white */
   }
   .more-info {
-    margin-top: 0px;
     opacity: 0;
     transition: .2s ease-in-out;
   }
