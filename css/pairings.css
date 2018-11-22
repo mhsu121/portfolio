@@ -1,0 +1,9 @@
+/* HEADER */
+header {
+  background-image: linear-gradient(-180deg, #8BC25F 12%, #FFFFFF 99%); /* green gradient */
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  background-color: #8BC25F; /* green */
+}

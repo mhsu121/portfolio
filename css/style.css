@@ -60,7 +60,6 @@ html, body{
 }
 h1, h2, h3, h4, h5, h6, p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  line-height:22px;
 }
 h1 {
   font-size: 24px;
@@ -70,16 +69,16 @@ h1 {
   color: #333333; /* dark grey */
 }
 h2 {
-  font-size: 16px;
-  font-weight: 300;
-  color: #333333; /* dark grey */
-}
-h3 {
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #333333; /* dark gray */
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #9B9B9B; /* medium grey */
 }
 h4 {
   font-size: 12px;
@@ -97,6 +96,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   color: #333333; /* dark grey */
+  line-height:24px;
 }
 a {
   font-family: "Open Sans";
@@ -105,7 +105,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #333333; /* dark grey */
+  color: #86C1AD; /* turquoise */
+  text-decoration:underline;
 }
 .btn {
   background-color: #86C1AD; /* turquoise */
@@ -120,4 +121,94 @@ a:hover {
 .btn:hover {
   background-color: rgba(134, 193, 173, 0.6); /* transparent turquoise */
   color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+ul > li {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #333333; /* dark grey */
+}
+
+/* HEADER */
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header nav {
+  padding: 1.8em 0 1em;
+  text-align: center;
+}
+header nav .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  color: #333333; /* dark grey */
+}
+header nav .logo:hover {
+  text-decoration:none;
+}
+header nav ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+header nav ul > li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header nav ul > li > a {
+  font-size: 14px;
+  color: #333333; /* dark grey */
+}
+header nav ul > li > a:hover {
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+@media (min-width:992px) {
+  header nav {
+    text-align:left;
+  }
+  header nav ul {
+    float:right;
+  }
+}
+
+/* FOOTER */
+footer {
+  background-color: #E2E2E2; /*light grey */
+  padding: 0.5em 0 0.2em;
+  text-align:center;
+}
+footer p {
+  font-size:14px;
+}
+.footer-links a {
+  color: #333333; /* dark grey */
+  text-decoration:underline;
+}
+.footer-links a:hover {
+  color: #86C1AD; /* turquoise */
+}
+.footer-links ul {
+  list-style:none;
+  padding:0;
+  margin-bottom:0;
+}
+.footer-links ul > li {
+  display: inline-block;
+  font-size:18px;
+  margin: 0 10px;
+}
+@media (min-width:992px) {
+  footer p {
+    text-align:left;
+  }
+  .footer-links ul {
+    float:right;
+  }
 }

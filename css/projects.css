@@ -2,45 +2,6 @@
 header {
   background-image: url("../images/hero.jpg");
   background-color: #E2E2E2; /* light grey */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-header nav {
-  padding: 1.8em 0 1em;
-  text-align: center;
-}
-header nav .logo {
-  font-size: 22px;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  font-weight: 400;
-  color: #333333; /* dark grey */
-}
-header nav ul {
-  list-style:none;
-  padding:0;
-  display: inline;
-  float: none;
-  margin:0;
-}
-header nav ul > li {
-  display: inline-block;
-  margin: 0 10px;
-}
-header nav ul > li > a {
-  font-size: 14px;
-  color: #333333; /* dark grey */
-}
-header nav ul > li > a:hover {
-  color: #FFFFFF; /* white */
-}
-@media (min-width:992px) {
-  header nav {
-    text-align:left;
-  }
-  header nav ul {
-    float:right;
-  }
 }
 
 /* HERO */
@@ -77,15 +38,19 @@ header nav ul > li > a:hover {
 .hero h1 {
   line-height:44px;
 }
-.hero .btn:hover {
-  background-color: transparent;
-  border: 2px solid white;
+.hero h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333; /* dark grey */
+  line-height:24px;
 }
 .hero h5 > a {
   color: #333333; /* dark grey */
 }
 .hero a:hover {
   color: #FFFFFF; /* white */
+  text-decoration: none;
+
 }
 .hero-btn {
   border: 2px solid #86C1AD; /* turquoise */
@@ -101,6 +66,7 @@ header nav ul > li > a:hover {
 .hero-btn:hover {
   background-color: transparent;
   border: 2px solid white;
+  text-decoration: none;
 }
 
 /* PROJECTS */
@@ -188,6 +154,7 @@ header nav ul > li > a:hover {
 .portfolio-btn:hover {
   background-color: rgba(134, 193, 173, 0.6); /* transparent turquoise */
   color: #FFFFFF; /* white */
+  text-decoration: none;
 }
 @media (min-width: 768px) {
   .portfolio-btn {
@@ -214,12 +181,12 @@ header nav ul > li > a:hover {
     font-size: 16px;
   }
 }
-.portfolio-item h3 {
+.portfolio-item h2 {
   text-align: center;
 }
 /* display more details on hover for larger screens */
 @media (min-width: 992px) {
-  .portfolio-item h3 {
+  .portfolio-item h2 {
     color: #333333; /* dark grey */
     position: absolute;
     left: 50%;
@@ -227,7 +194,7 @@ header nav ul > li > a:hover {
     transform: translate(-50%, -50%);
     bottom: 0px;
   }
-  .portfolio-item:hover h3 {
+  .portfolio-item:hover h2 {
     color: #FFFFFF; /* white */
   }
   .more-info p {
@@ -269,7 +236,7 @@ header nav ul > li > a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 3em 0;
+  padding: 2em 0 3.5em;
 }
 .contact a {
   color: #333333; /* dark grey */
@@ -301,14 +268,4 @@ header nav ul > li > a:hover {
   display: block;
   z-index:0;
   background-color: rgba(250,250,250,0.6); /* 60% opacity white */
-}
-
-/* FOOTER */
-footer {
-  background-color: #E2E2E2; /*light grey */
-  padding: 0.2em 0;
-  text-align:center;
-}
-footer p {
-  font-size:14px;
 }

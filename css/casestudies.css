@@ -1,0 +1,130 @@
+/* HERO */
+.hero {
+  display:block;
+  position: relative;
+  padding: 0;
+}
+.hero .container {
+  width: 360px;
+}
+@media (min-width: 768px) {
+  .hero .container {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  .hero .container {
+    width: 962px;
+  }
+}
+.hero h1, h4, h5, p {
+  text-align:center;
+}
+.hero h1 {
+  line-height:44px;
+}
+.hero h4 {
+  color: #333333; /* dark grey */
+  margin-bottom:30px;
+}
+.hero h5 > a {
+  color: #333333; /* dark grey */
+}
+.hero h5 > a:hover {
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+.hero-btn {
+  background-color: white;
+  border: 2px solid white;
+  color: #86C1AD; /* turquoise */
+  padding: 15px 25px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.hero-btn:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+#icon {
+  width: 16px;
+}
+#hero-img {
+  width: 100%;
+  display: block;
+  margin: 30px auto 0;
+}
+@media (min-width: 768px) {
+  #hero-img {
+    width: 80%;
+  }
+}
+
+/* CASE STUDY */
+main .container {
+  width: 360px;
+}
+@media (min-width: 768px) {
+  main .container {
+    width: 738px;
+  }
+}
+@media (min-width: 992px) {
+  main .container {
+    width: 962px;
+  }
+}
+main h1 {
+  text-align: center;
+}
+main p {
+  text-align:left;
+}
+.case-study {
+  padding: 1em 0;
+}
+
+/* BOTTOM NAV */
+.bottom-nav {
+  padding: 1.5em 0 3em;
+  text-align: center;
+}
+.bottom-nav ul {
+  list-style:none;
+  padding:0;
+  margin-bottom:35px;
+}
+.bottom-nav ul > li {
+  font-size:24px;
+  display: inline-block;
+  margin: 0;
+}
+.bottom-nav ul > li > a {
+  color: #333333; /* dark grey */
+}
+.bottom-nav ul > li > a:hover {
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+.footer-btn {
+  background-color: white;
+  border: 2px solid white;
+  color: #86C1AD; /* turquoise */
+  padding: 15px 25px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer-btn:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
