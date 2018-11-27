@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/contact-hero.jpg");
   background-color: #E2E2E2; /* light grey */
 }
 
@@ -11,9 +11,10 @@ header {
   padding: 0 0 4.5em 0;
 }
 .hero .container {
-  width: 360px;
-  background-color: rgba(250,250,250,0.7); /* 70% opacity white */
-  padding: 0px 25px;
+  width: 320px;
+  background-color: rgba(250,250,250,0.8); /* 80% opacity white */
+  padding: 0px 20px;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .hero .container {
@@ -35,4 +36,34 @@ header {
 .hero h1 {
   text-align:center;
   line-height:44px;
+}
+
+/* FORM */
+.form {
+  text-align: center;
+  padding: 1.5em 0 3em 0;
+}
+input[type=text], input[type=email], textarea[name=message] {
+  font-family: "Open Sans";
+  font-size: 16px;
+  width: 330px;
+  margin: 0px auto 10px;
+  padding: 15px;
+  border: 1px solid #CCCCCC; /* light grey */
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=submit] {
+  width: 330px;
+  border: 0px;
+  background-color: #86C1AD; /* turquoise */
+  color: #FFFFFF; /* turquoise */
+  padding: 15px 25px;
+  font-family: "Open Sans";
+  font-size:16px;
+}
+input[type=submit]:hover {
+  background-color: rgba(134, 193, 173, 0.6); /* transparent turquoise */
+  cursor: pointer;
 }
