@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/projects-hero.jpg");
   background-color: #E2E2E2; /* light grey */
 }
 
@@ -49,23 +49,6 @@ header {
 }
 .hero a:hover {
   color: #FFFFFF; /* white */
-  text-decoration: none;
-
-}
-.hero-btn {
-  border: 2px solid #86C1AD; /* turquoise */
-  background-color: #86C1AD; /* turquoise */
-  padding: 15px 30px;
-  font-family: "Open Sans";
-  font-size: 16px;
-  color: #FFFFFF; /* white */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.hero-btn:hover {
-  background-color: transparent;
-  border: 2px solid white;
   text-decoration: none;
 }
 
@@ -166,7 +149,7 @@ header {
   .portfolio-btn {
     background-color: transparent;
     border: 2px solid white;
-    padding: 15px 20px;
+    padding: 10px 20px;
     color: #FFFFFF; /* white */
   }
   .portfolio-btn:hover {

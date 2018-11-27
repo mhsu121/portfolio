@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>BusyBus | Michelle Hsu</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/casestudies.css">
+  <link rel="stylesheet" href="css/busybus.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+
+<header id="top">
+<!-- logo -->
+  <nav class="container">
+    <div class="one-half">
+      <a href="index.html" class="logo-dark">Michelle Hsu</a>
+    </div>
+<!-- navigation -->
+    <div class="one-half">
+      <ul class="navlinks-dark">
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- hero -->
+  <section class="hero-dark">
+    <div class="container">
+      <h1>BUSYBUS: MOBILE DESIGN EXERCISE</h1>
+      <h4>USER INTERFACE | USER EXPERIENCE</h4>
+      <h5><a href="#case-study">Click or scroll to view case study&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></a></h5>
+      <img src="images/busybus-hero.png" alt="busybus-hero" id="hero-img"/>
+    </div>
+  </section>
+</header>
+
+<main role="main">
+<!-- case study -->
+  <section class="case-study" id="case-study">
+    <div class="container">
+      <h1>Case Study</h1>
+
+      <h2>Background</h2>
+      <p>One of the assessments in my design apprenticeship was to create a display view for a mobile app called BusyBus, a regional bus service that serves thousands of commuters in a large city.</p>
+
+      <h2>DEFINING THE KEY ISSUES</h2>
+      <p>Living in San Francisco where we have BART, Caltrain, MUNI, and busses, many of which stop at the same location, and having tried multiple public transit trackers myself, one thing I can say for certain is that there aren’t many that get it right.</p>
+      <p>Before jumping into design, I laid out the key goals that I wanted my application to be able to accomplish:
+        <ul>
+          <li>Help users identify which bus stops they are closest to</li>
+          <li>Help users identify when the next bus is arriving</li>
+          <li>For bus stops with multiple lines running through, help users identify which lines are approaching</li>
+          <li>Allow users to visually see where their busses are on a map in real-time, like Uber or Lyft</li>
+        </ul>
+
+      <h2>COMPETITIVE ANALYSIS</h2>
+      <p>I also researched several public transit applications, including <a href="https://itunes.apple.com/us/app/routesy/id381982120?mt=8" target="_blank">Routesy</a>, <a href="https://itunes.apple.com/us/app/moovit-public-transit/id498477945?mt=8" target="_blank">Moovit</a>, and <a href="https://itunes.apple.com/us/app/transit-bus-subway-times/id498151501?mt=8" target="_blank">Transit</a>. I personally use Routesy for my transit needs, and I like that it has all transit options in one place and allows you to search both by nearby stops and by line. You can also bookmark favorites and see the arrival times of the next few buses for a particular line, in case you miss the next one. However, the lack of a real-time map visual has caused problems when I’ve actually gotten on trains heading in the opposite direction.</p>
+      <p>Moovit and Transit provide a feature similar to Google Maps where you can enter a starting and ending destination. and the application will provide several transit options, sorted by time to arrival. Both applications offer real-time tracking, which allows users to see where their busses or trains are on a map.</p>
+
+      <h2>DESIGN</h2>
+      <img src="images/busybus-main.png" alt="busybus-main" id="main-img">
+      <p>The first screen is the homepage of the BusyBus iOS app. Users can toggle between seeing what stops are nearby (including walking distance), searching for a specific line, and their favorites. When searching nearby stops, users can see their relative location on a map as well as which busses serve which stops. To see a detailed view of a particular stop, users can tap the left arrow to navigate to the bus stop display view.</p>
+      <p>In the bus stop display view, each of the bus lines that serve the stop, in this case, Washington & State, are displayed in a scrollable list in chronological order of next arrival time. Showing the next 3 bus arrival times allows users to plan their schedule in case they can't make it to the stop by the next arrival time.</p>
+      <p>The user has the option to change the direction they are traveling in (Eastbound vs. Westbound vs. Northbound vs. Southbound, etc.) by tapping the drop down arrow in the header. Changing the direction will refresh the screen and populate the proper times for buses traveling in the opposite direction.</p>
+      <p>Tapping the carrot on the right hand side of each bus line will populate a drop down live map view showing the real-time location of the bus and intended route, as well as the user's current location. In order to avoid confusion about which bus stop to walk to while still highlighting the different stops on the route, the correct stop is enlarged and tagged with a pin showing how far away the nearest bus is for that particular line. The user can tap on other stops to view information and arrival times, but as this information is secondary, it is hidden from the display view to avoid clutter and unnecessary overload of information.</p>
+
+      <h5><a href="#top">Return to top&nbsp;&nbsp;<i class="fas fa-angle-double-up"></i></a></h5>
+    </div>
+  </section>
+
+  <section class="bottom-nav-dark">
+    <div class="container">
+      <h1>Browse other projects</h1>
+      <h2>
+        <ul>
+          <li><a href="pairings.html">Pairings</a></li> |
+          <li><a href="cubby.html">Cubby</a></li> |
+          <li><a href="craigslist.html">Craigslist Rebrand</a></li>
+        </ul>
+      </h2>
+      <a href="index.html" class="btn-dark">Return to homepage</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="one-half copyright">
+      <p>&copy; <strong>2018</strong> | designed & developed by michelle hsu</p>
+    </div>
+    <div class="one-half footer-links">
+      <ul>
+        <li><a href="https://linkedin.com/in/michellethsu/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="resources/resume.pdf" target="_blank"><i class="fas fa-file"></i></a></li>
+        <li><a href="mailto:michelletahsu@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- JQuery -->
+<script src="js/jquery.js"></script>
+<script type="text/javascript">
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          &&
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 600, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+</script>
+
+</body>
+
+</html>

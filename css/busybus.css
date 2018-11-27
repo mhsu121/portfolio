@@ -1,5 +1,9 @@
 /* HEADER */
 header {
-  background-image: url("../images/busybus.png");
+  background-image: linear-gradient(-180deg, #6C0090 12%, #FFFFFF 99%); /* purple gradient */
+}
+
+/* BOTTOM NAV */
+.bottom-nav-dark {
   background-color: #6C0090; /* purple */
 }

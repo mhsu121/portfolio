@@ -1,0 +1,47 @@
+/* HEADER */
+header {
+  background-color: #FFFFFF; /* light grey */
+}
+@media (min-width: 992px) {
+  header {
+    background-image: url("../images/about-main.jpg");
+    background-color: #E2E2E2; /* light grey */
+  }
+}
+
+/* HERO */
+.hero {
+  display:block;
+  position: relative;
+  padding: 0 0 2em 0;
+}
+@media (min-width:992px) {
+  .hero {
+    padding: 0 0 4.5em 0;
+  }
+}
+@media (min-width: 992px) {
+  .hero .container {
+    width: 800px;
+    background-color: rgba(250,250,250,0.7); /* 70% opacity white */
+    padding: 0px 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero .container {
+    width: 450px;
+    padding: 20px 45px;
+  }
+}
+.hero img {
+  width:100%;
+}
+@media (min-width: 992px) {
+  .hero img {
+    display:none;
+  }
+}
+.hero h1 {
+  text-align:center;
+  line-height:44px;
+}

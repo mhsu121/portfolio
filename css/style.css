@@ -78,7 +78,7 @@ h2 {
 h3 {
   font-size: 18px;
   font-weight: 400;
-  color: #9B9B9B; /* medium grey */
+  color: #999999; /* medium grey */
 }
 h4 {
   font-size: 12px;
@@ -110,16 +110,50 @@ a:hover {
 }
 .btn {
   background-color: #86C1AD; /* turquoise */
-  padding: 15px 30px;
+  color: #FFFFFF; /* turquoise */
+  padding: 15px 25px;
   font-family: "Open Sans";
   font-size: 16px;
-  color: #FFFFFF; /* white */
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 .btn:hover {
   background-color: rgba(134, 193, 173, 0.6); /* transparent turquoise */
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+.btn-light {
+  background-color: #FFFFFF; /* white */
+  border: 2px solid #FFFFFF; /* white */
+  color: #333333; /* dark grey */
+  padding: 15px 25px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-light:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+.btn-dark {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #FFFFFF; /* white */
+  padding: 15px 25px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-dark:hover {
+  background-color: #86C1AD; /* turquoise */
+  border: 2px solid #86C1AD; /* turquoise */
   color: #FFFFFF; /* white */
   text-decoration: none;
 }
@@ -140,14 +174,26 @@ header nav {
   padding: 1.8em 0 1em;
   text-align: center;
 }
-header nav .logo {
+.logo-light {
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   font-weight: 400;
   color: #333333; /* dark grey */
 }
-header nav .logo:hover {
+.logo-light:hover {
+  color: #333333; /* dark grey */
+  text-decoration:none;
+}
+.logo-dark {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  color: #FFFFFF; /* white */
+}
+.logo-dark:hover {
+  color: #FFFFFF; /* white */
   text-decoration:none;
 }
 header nav ul {
@@ -157,16 +203,24 @@ header nav ul {
   float: none;
   margin:0;
 }
-header nav ul > li {
+header nav ul li {
   display: inline-block;
   margin: 0 10px;
 }
-header nav ul > li > a {
+.navlinks-light > li > a {
   font-size: 14px;
   color: #333333; /* dark grey */
 }
-header nav ul > li > a:hover {
+.navlinks-light > li > a:hover {
   color: #FFFFFF; /* white */
+  text-decoration: none;
+}
+.navlinks-dark > li > a {
+  font-size: 14px;
+  color: #FFFFFF; /* white */
+}
+.navlinks-dark > li > a:hover {
+  color: #86C1AD; /* turquoise */
   text-decoration: none;
 }
 @media (min-width:992px) {

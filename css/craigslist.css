@@ -1,5 +1,9 @@
 /* HEADER */
 header {
-  background-image: url("../images/craigslist.png");
+  background-image: linear-gradient(-180deg, #002661 12%, #FFFFFF 99%); /* dark blue gradient */
+}
+
+/* BOTTOM NAV */
+.bottom-nav-dark {
   background-color: #002661; /* dark blue */
 }
