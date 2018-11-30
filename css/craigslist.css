@@ -3,6 +3,31 @@ header {
   background-image: linear-gradient(-180deg, #002661 12%, #FFFFFF 99%); /* dark blue gradient */
 }
 
+/* CASE STUDY */
+main h2 {
+  border-bottom: 2px solid #002661; /* dark blue */
+}
+main h3 {
+  color: #002661; /* dark blue */
+}
+
+/* IMAGE SIZING */
+@media (min-width: 768px) {
+  .mindmap img {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .logo img {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .styleguide img {
+    width: 70%;
+  }
+}
+
 /* BOTTOM NAV */
 .bottom-nav-dark {
   background-color: #002661; /* dark blue */

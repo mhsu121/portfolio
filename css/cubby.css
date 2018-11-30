@@ -3,6 +3,14 @@ header {
   background-image: linear-gradient(-180deg, #3498DB 12%, #FFFFFF 99%); /* bright blue gradient */
 }
 
+/* CASE STUDY */
+main h2 {
+  border-bottom: 2px solid #3498DB; /* bright blue */
+}
+main h3 {
+  color: #6C0090; /* purple */
+}
+
 /* BOTTOM NAV */
 .bottom-nav-light {
   background-color: #3498DB; /* bright blue */

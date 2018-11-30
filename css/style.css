@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+section:focus {
+    outline: none;
+}
 
 /* GRID */
 .container {
@@ -76,13 +79,14 @@ h2 {
   color: #333333; /* dark gray */
 }
 h3 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 700;
   color: #999999; /* medium grey */
 }
 h4 {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 700;
+  line-height:20px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #86C1AD; /* turquoise */
@@ -96,11 +100,11 @@ p {
   font-size: 16px;
   font-weight: 300;
   color: #333333; /* dark grey */
-  line-height:24px;
+  line-height:30px;
 }
 a {
   font-family: "Open Sans";
-  font-weight: 300;
+  font-weight: 700;
   color: #86C1AD; /* turquoise */
   text-decoration: none;
 }
@@ -114,6 +118,7 @@ a:hover {
   padding: 15px 25px;
   font-family: "Open Sans";
   font-size: 16px;
+  font-weight: 300;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -130,6 +135,7 @@ a:hover {
   padding: 15px 25px;
   font-family: "Open Sans";
   font-size: 16px;
+  font-weight: 300;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -147,6 +153,7 @@ a:hover {
   padding: 15px 25px;
   font-family: "Open Sans";
   font-size: 16px;
+  font-weight: 300;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -161,7 +168,7 @@ ul > li {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 30px;
   color: #333333; /* dark grey */
 }
 
@@ -210,6 +217,7 @@ header nav ul li {
 .navlinks-light > li > a {
   font-size: 14px;
   color: #333333; /* dark grey */
+  font-weight: 300;
 }
 .navlinks-light > li > a:hover {
   color: #FFFFFF; /* white */
@@ -218,6 +226,7 @@ header nav ul li {
 .navlinks-dark > li > a {
   font-size: 14px;
   color: #FFFFFF; /* white */
+  font-weight: 300;
 }
 .navlinks-dark > li > a:hover {
   color: #86C1AD; /* turquoise */

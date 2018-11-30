@@ -29,6 +29,7 @@
 }
 .hero-light h5 > a {
   color: #333333; /* dark grey */
+  font-weight: 300;
 }
 .hero-light h5 > a:hover {
   color: #FFFFFF; /* white */
@@ -80,6 +81,7 @@
 }
 .hero-dark h5 > a {
   color: #FFFFFF; /* dark grey */
+  font-weight: 300;
 }
 .hero-dark h5 > a:hover {
   color: #86C1AD; /* turquoise */
@@ -100,6 +102,9 @@
 }
 
 /* CASE STUDY */
+main {
+  padding: 1em 0 0;
+}
 main .container {
   width: 360px;
 }
@@ -116,22 +121,32 @@ main .container {
 main h1 {
   text-align: center;
 }
+main h2 {
+  padding-bottom:15px;
+  line-height:34px;
+}
 main p {
   text-align:left;
 }
-.case-study {
-  padding: 1em 0;
-}
-#main-img {
+main img {
   width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+/* CONCLUSION */
+.conclusion, .styleguide {
+  padding-bottom: 0.5em;
 }
 
 /* BOTTOM NAV - LIGHT */
 .bottom-nav-light {
   padding: 1.5em 0 3em;
   text-align: center;
+}
+.bottom-nav-light h2 {
+  padding: 0;
+  border-bottom: 0;
 }
 .bottom-nav-light ul {
   list-style:none;
@@ -156,6 +171,10 @@ main p {
 .bottom-nav-dark {
   padding: 1.5em 0 3em;
   text-align: center;
+}
+.bottom-nav-dark h2 {
+  padding: 0;
+  border-bottom: 0;
 }
 .bottom-nav-dark h1 {
   color: #FFFFFF; /* white */

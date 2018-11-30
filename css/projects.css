@@ -46,6 +46,7 @@ header {
 }
 .hero h5 > a {
   color: #333333; /* dark grey */
+  font-weight: 300;
 }
 .hero a:hover {
   color: #FFFFFF; /* white */
@@ -62,6 +63,7 @@ header {
 }
 .projects p {
   text-align:left;
+  line-height: 24px;
 }
 
 /* PORTFOLIO ITEMS */
@@ -129,6 +131,7 @@ header {
   padding: 10px 10px;
   font-family: "Open Sans";
   font-size: 16px;
+  font-weight: 300;
   color: #FFFFFF; /* white */
   text-align: center;
   text-decoration: none;
@@ -224,6 +227,7 @@ header {
 .contact a {
   color: #333333; /* dark grey */
   text-decoration:underline;
+  font-weight: 300;
 }
 .contact a:hover {
   color: #FFFFFF; /* white */
