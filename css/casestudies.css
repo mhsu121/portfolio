@@ -131,12 +131,10 @@ main p {
 main img {
   width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
-
-/* CONCLUSION */
-.conclusion, .styleguide {
-  padding-bottom: 0.5em;
+.return {
+  padding-bottom:25px;
 }
 
 /* BOTTOM NAV - LIGHT */

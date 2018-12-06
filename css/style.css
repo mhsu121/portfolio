@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-section:focus {
+*:focus {
     outline: none;
 }
 
