@@ -12,12 +12,31 @@ main h3 {
 }
 
 /* IMG SIZING */
-#usertesting-img {
-  width: 100%;
-}
 @media (min-width: 762px) {
   #usertesting-img {
     width: auto;
+  }
+  #pairings-userstories, #pairings-mind-map, #pairings-logo-design, #pairings-styleguide {
+    width: 80%;
+  }
+  #pairings-icontoggle, #pairings-homepage, #pairings-recipeprofile {
+    width: 90%;
+  }
+  #pairings-userflow1, #pairings-userflow2 {
+    width: 49%;
+    display: inline;
+    margin-right:5px;
+    vertical-align: top;
+  }
+  #pairings-hand-wireframes {
+    width: 47%;
+    display: inline;
+    margin-right:5px;
+  }
+  #pairings-lofi-wireframes {
+    width: 51%;
+    display: inline;
+    margin-left:5px;
   }
 }
 

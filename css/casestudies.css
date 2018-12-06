@@ -131,7 +131,7 @@ main p {
 main img {
   width: 100%;
   display: block;
-  margin: 0 auto 20px;
+  margin: 30px auto;
 }
 .return {
   padding-bottom:25px;
