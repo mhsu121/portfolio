@@ -13,18 +13,8 @@ main h3 {
 
 /* IMAGE SIZING */
 @media (min-width: 768px) {
-  .mindmap img {
-    width: 70%;
-  }
-}
-@media (min-width: 768px) {
-  .logo img {
-    width: 70%;
-  }
-}
-@media (min-width: 768px) {
-  .styleguide img {
-    width: 70%;
+  .mindmap img, .logo img, .styleguide img {
+    width: 80%;
   }
 }
 
