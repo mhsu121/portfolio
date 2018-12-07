@@ -11,6 +11,22 @@ main h3 {
   color: #3498DB; /* bright blue */
 }
 
+/* IMG RESIZING */
+@media (min-width: 762px) {
+  #cubby-solution, #cubby-logosketches, #cubby-hifi-wireframes, #cubby-homepage {
+    width: 80%;
+  }
+  #cubby-typefaces, #cubby-colorpalette {
+    width: 70%;
+  }
+  #cubby-logooptions {
+    width: 30%;
+  }
+  #cubby-logo, #cubby-slidingnav {
+    width: 50%;
+  }
+}
+
 /* BOTTOM NAV */
 .bottom-nav-light {
   background-color: #3498DB; /* bright blue */
