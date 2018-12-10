@@ -1,21 +1,21 @@
 /* HEADER */
 header {
-  background-image: url("../images/about-hero-small.jpg");
+  background-image: url("../images/about-hero-small.JPG");
   background-color: #E2E2E2; /* light grey */
 }
 @media (min-width:768px) {
   header {
-    background-image: url("../images/about-hero-medium.jpg");
+    background-image: url("../images/about-hero-medium.JPG");
   }
 }
 @media (min-width:992px) {
   header {
-    background-image: url("../images/about-hero-large.jpg");
+    background-image: url("../images/about-hero-large.JPG");
   }
 }
 @media (min-width:1200px) {
   header {
-    background-image: url("../images/about-hero-xlarge.jpg");
+    background-image: url("../images/about-hero-xlarge.JPG");
   }
 }
 
