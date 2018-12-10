@@ -106,7 +106,7 @@ header {
   display: inline-block;
 }
 .portfolio-btn:hover {
-  background-color: rgba(134, 193, 173, 0.6); /* transparent turquoise */
+  background-color: #0A2139; /* navy */
   color: #FFFFFF; /* white */
   text-decoration: none;
 }

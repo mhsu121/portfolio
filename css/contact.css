@@ -9,6 +9,11 @@ header {
   }
 }
 
+/* HERO */
+.hero .container {
+  margin-top:300px;
+}
+
 /* FORM */
 .form {
   text-align: center;
@@ -35,7 +40,7 @@ input[type=submit] {
   font-size:16px;
 }
 input[type=submit]:hover {
-  background-color: rgba(134, 193, 173, 0.6); /* transparent turquoise */
+  background-color: #0A2139; /* navy */
   cursor: pointer;
 }
 @media (min-width:768px) {

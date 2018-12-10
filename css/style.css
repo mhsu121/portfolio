@@ -123,8 +123,8 @@ a:hover {
   display: inline-block;
 }
 .btn:hover {
-  background-color: #FFFFFF; /* white */
-  color: #86C1AD; /* turquoise */
+  background-color: #0A2139; /* navy */
+  color: #FFFFFF; /* white */
   text-decoration: none;
 }
 .btn-light {
@@ -218,6 +218,9 @@ header nav ul li {
 .navlinks > li > a:hover {
   color: #333333; /* dark grey */
   text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #86C1AD; /* turquoise */
+
 }
 @media (min-width:992px) {
   header nav {
@@ -301,6 +304,22 @@ header nav ul li {
 }
 .hero h5 > a:hover {
   color: #86C1AD; /* turquoise */
+  text-decoration: none;
+}
+.hero-btn {
+  background-color: #86C1AD; /* turquoise */
+  color: #FFFFFF; /* white */
+  padding: 15px 25px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.hero-btn:hover {
+  background-color: #FFFFFF; /* white */
+  color: #0A2139; /* navy */
   text-decoration: none;
 }
 
