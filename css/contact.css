@@ -15,9 +15,12 @@ header {
 }
 
 /* FORM */
+main {
+  text-align:center;
+  padding-bottom:2em;
+}
 .form {
-  text-align: center;
-  padding: 3em 0 5em 0;
+  padding: 2em 0;
 }
 input[type=text], input[type=email], textarea[name=message] {
   font-family: "Open Sans";
@@ -29,6 +32,9 @@ input[type=text], input[type=email], textarea[name=message] {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+}
+textarea[name=message] {
+  height: 200px;
 }
 input[type=submit] {
   width: 330px;
