@@ -1,18 +1,46 @@
 /* HEADER */
 header {
-  background-color: #FFFFFF; /* light grey */
+  background-image: url("../images/about-hero-small.jpg");
+  background-color: #E2E2E2; /* light grey */
 }
-@media (min-width: 992px) {
+@media (min-width:768px) {
   header {
-    background-image: url("../images/about-main.jpg");
-    background-color: #E2E2E2; /* light grey */
+    background-image: url("../images/about-hero-medium.jpg");
   }
 }
-.hero img {
-  width:100%;
+@media (min-width:992px) {
+  header {
+    background-image: url("../images/about-hero-large.jpg");
+  }
+}
+@media (min-width:1200px) {
+  header {
+    background-image: url("../images/about-hero-xlarge.jpg");
+  }
+}
+
+/* HERO */
+.hero .container {
+  margin-top:300px;
+}
+
+/* MY STORY */
+main {
+  padding: 2em 0;
+}
+main .container {
+  width: 360px;
+}
+@media (min-width: 768px) {
+  main .container {
+    width: 738px;
+  }
 }
 @media (min-width: 992px) {
-  .hero img {
-    display:none;
+  main .container {
+    width: 962px;
   }
+}
+main h1, h5 {
+  text-align: center;
 }

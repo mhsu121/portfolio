@@ -100,7 +100,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   color: #333333; /* dark grey */
-  line-height:30px;
+  line-height:34px;
 }
 a {
   font-family: "Open Sans";
@@ -167,7 +167,7 @@ ul > li {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 34px;
   color: #333333; /* dark grey */
 }
 
@@ -218,9 +218,8 @@ header nav ul li {
 .navlinks > li > a:hover {
   color: #333333; /* dark grey */
   text-decoration: none;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
   border-bottom: 2px solid #86C1AD; /* turquoise */
-
 }
 @media (min-width:992px) {
   header nav {
@@ -291,20 +290,12 @@ header nav ul li {
   font-size: 16px;
   font-weight: 300;
   color: #FFFFFF; /* white */
-  line-height:24px;
+  line-height:28px;
 }
 @media (min-width: 768px) {
   .hero h1, .hero h3 {
     padding-bottom:0;
   }
-}
-.hero h5 > a {
-  color: #FFFFFF; /* white */
-  font-weight: 300;
-}
-.hero h5 > a:hover {
-  color: #86C1AD; /* turquoise */
-  text-decoration: none;
 }
 .hero-btn {
   background-color: #86C1AD; /* turquoise */
