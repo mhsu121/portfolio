@@ -142,37 +142,104 @@
 }
 
 /* CASE STUDY */
-main {
-  padding: 1em 0 0;
-}
-main .container {
-  width: 360px;
-}
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   main .container {
-    width: 738px;
-  }
-}
-@media (min-width: 992px) {
-  main .container {
-    width: 962px;
+    width: 1050px;
   }
 }
 main h1 {
   text-align: center;
 }
+.title {
+  width: 500px;
+  height: 50px;
+}
+.title:before {
+    content: '';
+    position: absolute;
+    left:500px;
+    border-bottom: 50px solid rgb(0,0,0,0); /* transparent */
+    width: 0;
+}
 main h2 {
-  padding-bottom:15px;
+  margin-left:30px;
   line-height:34px;
+  color:#FFFFFF;
+  font-weight:700;
+  padding-top:8px;
+}
+@media (min-width:762px) {
+  main h2 {
+    margin-left:50px;
+  }
+}
+@media (min-width:1200px) {
+  main h2 {
+    margin-left:100px;
+  }
 }
 main p {
   text-align:left;
+}
+main b {
+  font-weight:700;
 }
 main img {
   width: 100%;
   display: block;
   margin: 30px auto;
 }
+.no-bg, .bg {
+  padding:30px 0;
+}
+
+/*OVERVIEW*/
+#overview {
+  margin-top:30px;
+  background-color: #FFFFFF; /*white*/
+  border-radius: 25px;
+  padding:30px 30px 15px;
+}
+@media (min-width:992px) {
+  #overview {
+    height:530px;
+  }
+}
+@media (min-width:1200px) {
+  #overview {
+    height:460px;
+  }
+}
+#overview h3 {
+  text-align: center;
+}
+
+#overview ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+#overview img {
+  height:30px;
+  width:auto;
+}
+
+/*COMPETITIVE ANALYSIS*/
+#competitive-analysis ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+#competitive-analysis img {
+  height:50px;
+  width:auto;
+}
+
+/*RETURN*/
 .return {
   padding-bottom:25px;
 }

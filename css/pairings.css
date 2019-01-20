@@ -4,20 +4,30 @@ header {
 }
 
 /* CASE STUDY */
-main h2 {
-  border-bottom: 2px solid #8BC25F; /* green */
-}
-main h3 {
+main h3, h6 {
   color: #8BC25F; /* green */
+}
+.title {
+  background-color: #8BC25F; /* green */
+}
+.title:before {
+  border-left: 35px solid #8BC25F; /* green */
+}
+.bg {
+  background-color: rgb(139,194,95,0.25); /* transparent green */
 }
 
 /* IMG SIZING */
 @media (min-width: 762px) {
   #usertesting-img {
     width: auto;
+    margin: 0 30px 30px 0;
   }
-  #pairings-userstories, #pairings-mind-map, #pairings-logo-design, #pairings-styleguide {
+  #pairings-userstories, #pairings-styleguide {
     width: 80%;
+  }
+  #pairings-mind-map, #pairings-logo-design {
+    width: 95%;
   }
   #pairings-icontoggle, #pairings-homepage, #pairings-recipeprofile {
     width: 90%;
