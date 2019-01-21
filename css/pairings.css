@@ -17,6 +17,39 @@ main h3, h6 {
   background-color: rgb(139,194,95,0.25); /* transparent green */
 }
 
+/*OVERVIEW*/
+#pairings-overview {
+  margin-top:30px;
+  background-color: #FFFFFF; /*white*/
+  border-radius: 25px;
+  padding:30px 30px 15px;
+}
+@media (min-width:992px) {
+  #pairings-overview {
+    height:530px;
+  }
+}
+@media (min-width:1200px) {
+  #pairings-overview {
+    height:460px;
+  }
+}
+#pairings-overview h3 {
+  text-align: center;
+}
+
+#pairings-overview ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+#pairings-overview img {
+  height:30px;
+  width:auto;
+}
+
 /* IMG SIZING */
 @media (min-width: 762px) {
   #usertesting-img {

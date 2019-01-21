@@ -4,14 +4,73 @@ header {
 }
 
 /* CASE STUDY */
-main h2 {
-  border-bottom: 2px solid #6C0090; /* purple */
-}
-main h3 {
+main h3, h6 {
   color: #6C0090; /* purple */
+}
+.title {
+  background-color: #6C0090; /* purple */
+}
+.title:before {
+  border-left: 35px solid #6C0090; /* purple */
+}
+.bg {
+  background-color: rgb(108,0,144,0.15); /* transparent green */
+}
+
+/*OVERVIEW*/
+#busybus-overview {
+  margin-top:30px;
+  background-color: #FFFFFF; /*white*/
+  border-radius: 25px;
+  padding:30px 30px 15px;
+}
+@media (min-width:992px) {
+  #busybus-overview {
+    height:470px;
+  }
+}
+@media (min-width:1200px) {
+  #busybus-overview {
+    height:430px;
+  }
+}
+#busybus-overview h3 {
+  text-align: center;
+}
+
+#busybus-overview ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+#busybus-overview img {
+  height:30px;
+  width:auto;
 }
 
 /* BOTTOM NAV */
 .bottom-nav-dark {
   background-color: #6C0090; /* purple */
+}
+
+/* IMG SIZING */
+#app-logo {
+  height:20px;
+  width: auto;
+  display:inline;
+  margin:0;
+}
+@media (min-width: 762px) {
+  #routesy-detail {
+    width:60%;
+    float:right;
+    margin: 10px 0 10px 30px;
+  }
+}
+@media (min-width: 992px) {
+  #moovit-detail, #transit-detail {
+    width:80%;
+  }
 }

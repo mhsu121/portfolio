@@ -18,7 +18,7 @@ main h3, h6 {
   border-left: 35px solid #002661; /* dark blue */
 }
 .bg {
-  background-color: rgb(0,38,97,0.2); /* transparent dark blue */
+  background-color: rgb(0,38,97,0.15); /* transparent dark blue */
 }
 
 /*OVERVIEW*/
