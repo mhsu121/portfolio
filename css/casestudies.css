@@ -193,19 +193,6 @@ main img {
   padding:30px 0;
 }
 
-/*COMPETITIVE ANALYSIS*/
-#competitive-analysis ul {
-  list-style:none;
-  padding:0;
-  display: inline;
-  float: none;
-  margin:0;
-}
-#competitive-analysis img {
-  height:50px;
-  width:auto;
-}
-
 /*RETURN*/
 .return {
   padding-bottom:25px;

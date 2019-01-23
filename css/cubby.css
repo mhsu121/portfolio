@@ -4,26 +4,157 @@ header {
 }
 
 /* CASE STUDY */
-main h2 {
-  border-bottom: 2px solid #3498DB; /* bright blue */
-}
-main h3 {
+main h3, h6 {
   color: #3498DB; /* bright blue */
+}
+.title {
+  background-color: #3498DB; /* bright blue */
+}
+.title:before {
+  border-left: 35px solid #3498DB; /* bright blue */
+}
+.bg {
+  background-color: rgb(52,152,219,0.15); /* transparent bright blue */
+}
+
+/*OVERVIEW*/
+#cubby-overview {
+  margin-top:30px;
+  background-color: #FFFFFF; /*white*/
+  border-radius: 25px;
+  padding:30px 30px 15px;
+}
+@media (min-width:992px) {
+  #cubby-overview {
+    height:510px;
+  }
+}
+#cubby-overview h3 {
+  text-align: center;
+}
+#cubby-overview ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+#cubby-overview img {
+  height:30px;
+  width:auto;
+}
+
+/* COMPETITIVE ANALYSIS */
+#competitive-analysis {
+  background-color: #F7F7F7; /* lighter gray */
+  padding:30px;
+  box-shadow: 2px 2px 5px #E2E2E2; /* light gray */
+  margin-bottom: 30px;
+}
+@media (min-width:992px) {
+  #competitive-analysis {
+    height:500px;
+    margin-bottom: 50px;
+  }
+}
+#competitive-analysis h3 {
+  text-align: center;
+  font-size:18px;
+}
+#competitive-analysis p {
+  text-align: center;
+}
+
+/* SURVEY RESULTS */
+.survey-results {
+  background-color: rgb(52,152,219,0.15); /* transparent bright blue */
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 30px auto;
+  padding: 5px 20px 0;
+}
+@media (min-width: 992px) {
+  .survey-results {
+    display: inline-block;
+    margin: 4px;
+    padding: 0 20px 0;
+  }
+}
+@media (min-width: 1200px) {
+  .survey-results {
+    margin: 18px;
+  }
+}
+.survey-results h5 {
+  text-align: center;
+  font-size:28px;
+  color: rgb(52,152,219,0.25); /* transparent bright blue */
+  line-height:0px;
+  margin-bottom:50px;
+}
+.survey-results h6 {
+  text-align: center;
+  font-size:80px;
+  line-height:0px;
+  margin-bottom:50px;
+}
+.survey-results p {
+  text-align:center;
+  font-size:14px;
+  line-height:22px;
 }
 
 /* IMG RESIZING */
+#logo {
+  height:40px;
+  margin-bottom:50px;
+  width: auto;
+}
+#cubby-logooptions {
+  background-color:#FFFFFF;
+  padding:30px;
+}
 @media (min-width: 762px) {
-  #cubby-solution, #cubby-logosketches, #cubby-hifi-wireframes, #cubby-homepage {
+  #cubby-solution, #cubby-hifi-wireframes, #cubby-homepage, #cubby-dashboard, #cubby-preferencetest {
     width: 80%;
   }
   #cubby-typefaces, #cubby-colorpalette {
-    width: 70%;
+    width: 65%;
+    float: right;
+    margin-top:0px;
+    margin-left: 30px;
+  }
+  #cubby-logosketches {
+    width:80%;
   }
   #cubby-logooptions {
-    width: 30%;
+    width:40%;
   }
   #cubby-logo, #cubby-slidingnav {
     width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  #cubby-logosketches {
+    height: 400px;
+    width: auto;
+    display:inline;
+    margin:10px 10px 10px 40px;
+  }
+  #cubby-logooptions {
+    height: 400px;
+    width: auto;
+    background-color:#FFFFFF;
+    padding:30px;
+    display:inline;
+    margin:10px;
+  }
+}
+@media (min-width: 1200px) {
+  #cubby-logosketches {
+    margin-left:80px;
   }
 }
 

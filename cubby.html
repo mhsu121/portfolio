@@ -53,123 +53,194 @@
       <h4>USER RESEARCH | USER INTERFACE | USER EXPERIENCE | FRONT END DEVELOPMENT</h4>
       <p><a href="https://mhsu121.github.io/cubby/" target="_blank" class="btn-light">View live homepage</a></p>
       <p><a href="https://mhsu121.github.io/cubby/dashboard.html" target="_blank" class="btn-light">View live dashboard</a></p>
-      <h5><a href="#case-study">Click or scroll to view case study&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></a></h5>
+      <h5><a href="#background">Click or scroll to view case study&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></a></h5>
       <img src="images/cubby-hero.png" alt="cubby-hero" id="hero-img"/>
     </div>
   </section>
 </header>
 
-<main role="main">
 <!-- case study -->
-  <section class="case-study" id="case-study">
-    <div class="container">
-      <h1>Case Study</h1>
-
+<main role="main">
+<!-- background -->
+  <section class="no-bg" id="background">
+    <div class="title">
       <h2>Background</h2>
-      <p>I worked on the design and development of Cubby, a web application that functions as a collaborative storage platform, allowing users to collect different types of information, share that content with others, and store and access it all in one place. This is a case study on the design process I followed throughout the project.</p>
-
-      <h2>THE PROBLEM: FINDING COMPETITIVE ADVANTAGES</h2>
-      <p>In the light of prominent established storage providers such as Google Drive, Dropbox, and Box, Cubby needed to be designed thoughtfully and with intent from the ground up, focusing on what sets it apart and what can give it that unique competitive advantage.</p>
-
-      <h2>THE SOLUTION: RESPONSIVE & YOUTHFUL DESIGN</h2>
-      <p>Cubby’s vibrant colors and responsive design make it an attractive, fun-to-use platform for audiences who are not only constantly on-the-go but also very “plugged in”—meaning they use their technological devices for everything and anything. Cubby’s ability to create text-based notes, store images, and bookmark links all in one place is the perfect solution for its target audience.</p>
-      <img src="images/cubby-solution.png" alt="cubby-solution" id="cubby-solution"/>
+    </div>
+    <div class="container">
+      <p>Cubby is a web application that functions as a collaborative storage platform, allowing users to collect different types of information, share that content with others, and store and access it all in one place.</p>
       <p>Click here to view the live <a href="https://mhsu121.github.io/cubby/" target="_blank">homepage</a> and <a href="https://mhsu121.github.io/cubby/dashboard.html" target="_blank">dashboard</a> that I developed for Cubby!</p>
-
-      <h2>THE PROCESS: ITERATING “FROM THE GROUND UP”</h2>
-      <h3>Market and Competitive Analysis</h3>
-      <p>One of the first steps I took in the design process for Cubby was to conduct an analysis of key competitors <a href="https://www.google.com/drive/" target="_blank">Google Drive</a>, <a href="https://www.dropbox.com" target="_blank">Dropbox</a>, and <a href="https://www.box.com/" target="_blank">Box</a>. This was critical in understanding how to solve similar usability issues and identifying positioning strategies and areas of opportunity for Cubby to stand out from the competition.
-      <p>I studied the strategic positioning of each of Cubby’s main competitors:</p>
-      <ul>
-        <li><u><b>Positioning</u></b>: Box positions themselves as a primarily business solution, while Google Drive is positioned more for personal and general usage. Dropbox falls somewhere in between and can be used for both personal and business.</li>
-        <li><u><b>Primary Audience</u></b>: Box's primary audiences are enterprises and business users. Google Drive and Dropbox's primary audiences are students and individual users looking to store and share files.</li>
-        <li><u><b>Differentiators</u></b>: While all three offer file storage, file upload, and multiple user access, Google Drive offers tools (Docs, Sheets, Slides, etc.) that have similar functionality to the Microsoft Suite (i.e. Word, Excel, Powerpoint) but can be edited in real-time by multiple users, encouraging collaboration and resolving issues of versioning that can occur. Dropbox's recently released Paper tool is a workspace that multiple users can edit at one time, focusing on collaboration and real-time editing. Box and Dropbox also offer tools that are geared toward more advanced business users, like version history, security reporting, encryption, and API support. Dropbox's mobile photo upload feature is another a differentiator that sets it apart from other file sharing applications. Finally, Box and Dropbox's offline file access option and integration with the desktop (iOS and Windows) make usage very easy and integrated with typical workflows rather than having to log onto Google Drive using a browser every time.</li>
-      </ul>
-      <p>I also conducted a SWOT analysis for the broader content storage market:</p>
-      <ul>
-        <li><b><u>Strengths</b></u>: Players currently offer good cross-screen functionality (able to access account from both mobile and desktop); integration with desktop facilitates organic and automatic usage; intuitive navigation structure; offline file access anticipates needs of users</li>
-        <li><b><u>Weaknesses</b></u>: Sharing file documents only works with users within the same application; lack of functionality with Google Sheets / Slides compared to Microsoft Office suite</li>
-        <li><b><u>Opportunities</b></u>: Potential untapped markets—important to cater the design / application of Cubby to the segment of the market that has needs that are unmet by competitors (i.e. students, certain types of businesses, etc.)</li>
-        <li><b><u>Threats</b></u>: Hard to differentiate in a market that has well-established competitors like Google Drive, Dropbox, and Box; would be hard to gain market share in enterprise, as big businesses likely have long-standing contracts in place that would be difficult to switch or replace</li>
-      </ul>
-
-      <h3>User Research and Personas</h3>
-      <p>In order to better understand Cubby users and how to best meet their needs, I conducted a survey of 11 potential users, asking questions to discover how users interact with their devices, what they look at online and what tools they currently use, how they collaborate and share resources, their usage of online social networks, as well as other basic demographic information.</p>
-      <ul>
-        <li><b><u>Devices and Browsing</b></u>: All survey respondents own a smartphone and a laptop, while half own a tablet and approximately 1/3 own a smart TV. No respondents own a desktop computer. All respondents browse using their smartphone and most also use their laptop to look at social networks. A majority also look at news and watch videos. Based on this information, we have to make sure our app has cross-screen functionality across multiple devices and also supports video playing well.</li>
-        <li><b><u>Saving Content</b></u>: ~70% of respondents save content sometimes and typically bookmark it in their browsers or take screenshots. There are concerns on organization with browser bookmarking as quantity increases, so figuring out ways to manage and group bookmarks will be key.</li>
-        <li><b><u>Writing Notes</b></u>: All respondents write notes to remember things for later, and ~80% of respondents write notes often, both for business and personal usage. The most popular applications used are smartphone apps because they are easily accessible offline. Issues that come up are being able to access notes from other devices and notes not being formatted or organized automatically.</li>
-        <li><b><u>Work Environment</b></u>: Our respondents came from a variety of occupations, including software engineers, financial analysts, customer service representatives, project managers, and students. ~90% of respondents work in a collaborative environment. All share resources with their coworkers, ~70% of respondents indicating that this happens often. In Cubby, sharing will need to be simple and easy, especially among multiple groups of users.</li>
-        <li><b><U>Social Networks</b></u>: All respondents have a Facebook or Twitter account, and ~80% of respondents use their social media account to sign up for accounts on other websites due to faster sign-in ability and not needing to remember another password. Cubby needs to have social sign-in as an option.</li>
-        <li><b><u>Demographics</b></u>: Survey respondents are 18-34 years old and live all over the country, primarily in major metropolitan areas such as San Francisco, New York, Chicago, and Boston.</li>
-      </ul>
-      <p>Based upon these survey results, I conducted follow-up interviews with three of the respondents and created user personas based on their responses.</p>
-
-      <h3>User Flows and Site Map</h3>
+    </div>
+  </section>
+<!-- overview -->
+  <section class="bg">
+    <div class="title">
+      <h2>Overview</h2>
+    </div>
+    <div class="container">
+      <div class="one-third" id="cubby-overview">
+        <h6>The Problem: Finding Competitive Advantages</h6>
+        <p>In the light of prominent established storage providers such as Google Drive, Dropbox, and Box, Cubby needed to be designed thoughtfully and with intent from the ground up, focusing on what sets it apart and what can give it that unique competitive advantage.</p>
+      </div>
+      <div class="one-third" id="cubby-overview">
+        <h6>The Solution: Responsive & Youthful Design</h6>
+        <p>Cubby’s vibrant colors and responsive design make it an attractive, fun-to-use platform for audiences who are not only constantly on-the-go but also very “plugged in”—meaning they use their technological devices for everything and anything.</p>
+      </div>
+      <div class="one-third" id="cubby-overview">
+          <h6>Tools Used</h6>
+          <ul>
+            <li><img src="images/sketch.svg" alt="Sketch App"></li>
+            <li><img src="images/invision-full.png" alt="InVision"></li>
+            <li><img src="images/usertesting.png" alt="UserTesting.com"></li>
+            <li><img src="images/usabilityhub.png" alt="UsabilityHub"></li>
+            <li><img src="images/balsamiq.png" alt="Balsamiq"></li>
+            <li><img src="images/drawio.png" alt"Draw.io"></li>
+            <li><img src="images/illustrator.png" alt"Adobe Illustrator"></li>
+          </ul>
+      </div>
+    </div>
+  </section>
+<!-- Research & Concept -->
+  <section class="no-bg">
+    <div class="title">
+      <h2>Research & Concept</h2>
+    </div>
+    <div class="container">
+      <h3>Competitive Analysis</h3>
+      <p>Conducting an analysis of key players in the space was critical to understanding how to solve similar usability issues and identifying positioning strategies and areas of opportunity for Cubby to stand out from the competition.
+      <div class="one-third" id="competitive-analysis">
+        <img src="images/box.png" alt="Box" id="logo" />
+        <h3>Positioning</h3>
+        <p>Business solution</p>
+        <h3>Primary Audience</h3>
+        <p>Enterprise and business users</p>
+        <h3>Differentiators</h3>
+        <p>Version history, encryption, and API support</p>
+      </div>
+      <div class="one-third" id="competitive-analysis">
+        <img src="images/googledrive.png" alt="Google Drive" id="logo" />
+        <h3>Positioning</h3>
+        <p>Personal and general solution</p>
+        <h3>Primary Audience</h3>
+        <p>Individual users and students</p>
+        <h3>Differentiators</h3>
+        <p>Collaborative, real-time editing</p>
+      </div>
+      <div class="one-third" id="competitive-analysis">
+        <img src="images/dropbox.png" alt="DropBox" id="logo" />
+        <h3>Positioning</h3>
+        <p>Personal and business solution</p>
+        <h3>Primary Audience</h3>
+        <p>Individual users and students</p>
+        <h3>Differentiators</h3>
+        <p>Mobile photo uploads</p>
+      </div>
+      <h3>User Research</h3>
+      <p>I conducted a survey of potential users in order to better understand Cubby users and how to best meet their needs.</p>
+      <div class="survey-results">
+        <h5><i class="fas fa-mobile-alt">&nbsp;&nbsp;</i><i class="fas fa-laptop"></i></h5>
+        <h6>100%</h6>
+        <p>of respondents use <b>both smartphone and laptop</b> to access content</p>
+      </div>
+      <div class="survey-results">
+        <h5><i class="fab fa-facebook-square">&nbsp;&nbsp;</i><i class="fab fa-twitter-square"></i></h5>
+        <h6>~80%</h6>
+        <p>of respondents use <b>social media</b> to sign up for accounts on other sites</p>
+      </div>
+      <div class="survey-results">
+        <h5><i class="fas fa-user">&nbsp;&nbsp;</i><i class="fas fa-city"></i></h5>
+        <h6>18-34</h6>
+        <p>is the average age of respondents, who primarily live in <b>urban</b> locales</p>
+      </div>
+      <p>Based on these findings, Cubby needed to be a young and fresh responsive solution across devices featuring social sign-on.</p>
+      <h3>User Stories</h3>
       <p>The next step in the process was to map out how potential Cubby users would experience the site and flow through the application. I divided users into two types: new users and returning users. For each user type, I wrote down all the potential tasks they could accomplish in Cubby.</p>
       <img src="images/cubby-userstories.png" alt="cubby-userstories" id="cubby-userstories"/>
-      <p>After creating this list, I mapped out user flows in Draw.io for each task and created a site map to ensure key features were easily and logically accessible by both first-time and returning users. This exercise also helped me to determine which feature sets to prioritize for a minimally viable product, and which features could be deprioritized as “nice-to-haves.”</p>
+      <h3>User Flows</h3>
+      <p>I mapped out user flows in Draw.io for each task and created a site map to ensure key features were easily and logically accessible by both first-time and returning users. This exercise also helped me to determine which feature sets to prioritize for a minimally viable product, and which features could be deprioritized as “nice-to-haves.”</p>
       <img src="images/cubby-userflows.png" alt="cubby-userflows" id="cubby-userflows"/>
-
-      <h3>Low-Fidelity Wireframes</h3>
-      <p>Using myBalsamiq, I created some quick wireframes for the Cubby homepage and dashboard. This was a good way to iterate quickly and play around with different layouts before diving into more complex design elements.</p>
-      <img src="images/cubby-lofi-wireframes.png" alt="cubby-lofi-wireframes" id="cubby-lofi-wireframes"/>
-
-      <h3>Typeface and Color Palette Selection</h3>
-      <p>I selected two typefaces for Cubby: <a href="https://fonts.google.com/specimen/Nunito" target="_blank">Nunito</a> and <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a>.</p>
+    </div>
+  </section>
+  <!-- Branding -->
+  <section class="bg">
+    <div class="title">
+      <h2>Branding</h2>
+    </div>
+    <div class="container">
+      <h3>Typeface</h3>
       <img src="images/cubby-typefaces.png" alt="cubby-typefaces" id="cubby-typefaces"/>
-      <p>Nunito has nice rounded edges, which makes it easy to read at varying sizes. The geometric shapes of the letters give it a balanced look that is appealing at first glance. The thickness of strokes give the typeface strength and weight—there's a feeling of security and solidity with the font face—which is a nice thing to convey as a file storage product.</p>
-      <p>Lato is similar to Nunito in shape, creating harmony. It has semi-rounded edges and a strong structure to provide our functional but friendly tone.</p>
-      <p>Cubby follows a variation of a split-complementary color scheme, using blue and yellow-green colors as the main logo, headline, and background colors and a reddish-pink hue as an accent for all calls-to-action.</p>
+      <ul>
+        <li><a href="https://fonts.google.com/specimen/Nunito" target="_blank">Nunito</a> has nice rounded edges, which makes it easy to read at varying sizes. The thickness of strokes give the typeface strength and weight—there's a feeling of security and solidity.</li>
+        <li><a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a> is similar to Nunito in shape, creating harmony. It has semi-rounded edges and a strong structure to provide our functional but friendly tone.</li>
+      </ul>
+      <h3>Color Palette</h3>
       <img src="images/cubby-colorpalette.png" alt="cubby-colorpalette" id="cubby-colorpalette"/>
-
+      <p>Cubby follows a variation of a split-complementary color scheme, using blue and yellow-green colors as the main logo, headline, and background colors and a reddish-pink hue as an accent for all calls-to-action.</p>
       <h3>Logo Design</h3>
-      <p>Designing Cubby’s logo was an iterative process in itself. I first began with sketching out some ideas on paper for inspiration.</p>
+      <p>I first began with sketching out some ideas on paper for inspiration. After curating several ideas, I mocked up a few of my favorites in Illustrator.</p>
       <img src="images/cubby-logosketches.jpg" alt="cubby-logosketches" id="cubby-logosketches"/>
-      <p>After curating several ideas, I mocked up a few of my favorites in Illustrator.</p>
       <img src="images/cubby-logooptions.png" alt="cubby-logooptions" id="cubby-logooptions"/>
       <p>The final step was applying Cubby’s color scheme to the finished logo and creating an abbreviated version to be used in smaller allocated spaces:</p>
       <img src="images/cubby-logo.png" alt="cubby-logo" id="cubby-logo"/>
-
-      <h3>High-Fidelity Wireframes</h3>
-      <p>In Illustrator, I created some black and white high-fidelity wireframes of the homepage, onboarding process, dashboard, account settings, and adding content pages. More detailed and expansive than the lo-fi wireframes I created in myBalsamiq, this stage of the design process served the purpose of validating the viability of each user flow when taken from paper to application and setting up the assets needed for an important first round of usability testing, as detailed in the next section.</p>
-      <img src="images/cubby-hifi-wireframes.png" alt="cubby-hifi-wireframes" id="cubby-hifi-wireframes"/>
-
-      <h3>Testing and Prototyping: Round 1</h3>
-      <p>For this round of testing, I created a prototype in InVision using the high-fidelity wireframes I mocked up in Illustrator. I used Peek to test my prototype, as well as conducting in-person usability tests on three potential users. This stage of the process was extremely important, as I was able to receive and implement crucial feedback for improving and altering the application design before delving further into development.</p>
-      <p><a href="https://docs.google.com/document/d/1Y99fVhS0R__7wYckGaPeh_Y58ERkJZOc5I1pKANPCHk/edit?usp=sharing" target="_blank">Click here</a> to see some of the feedback that I received and implemented.</p>
-
-      <h3>Application Design</h3>
-      <p>Using Sketch, I created designs for Cubby’s homepage, onboarding flow, dashboard, content detail, and account settings pages, using a 12 column layout (68px wide) with 30px gutters.</p>
-      <img src="images/cubby-homepage.png" alt="cubby-homepage" id="cubby-homepage"/>
-      <img src="images/cubby-dashboard.png" alt="cubby-dashboard" id="cubby-dashboard"/>
-      <img src="images/cubby-content.png" alt="cubby-content" id="cubby-content"/>
-
-
-      <h3>Testing and Prototyping: Round 2</h3>
-      <p>Using the design mockups I created in Sketch, I created a new <a href="https://projects.invisionapp.com/share/WTF1JXYBC#/269441332_Homepage" target="_blank">prototype</a> in InVision for another round of testing. I submitted the prototype to UserTesting for some in-depth usability tests.</p>
-      <p>I used Usability Hub to create a preference test for the placement of the Add button on the dashboard.</p>
-      <img src="images/cubby-preferencetest.png" alt="cubby-preferencetest" id="cubby-preferencetest"/>
-      <p>I also used Usability Hub to create a navigation flow test for adding an image to Cubby.</p>
-      <img src="images/cubby-navtest.png" alt="cubby-navtest" id="cubby-navtest"/>
-
-      <h3>Development</h3>
-      <p>After a second round of testing, I was ready to take Cubby to the development phase. I inputted the content and built the structure of the homepage and dashboard in HTML, and took to CSS to implement responsive styling (including a hamburger icon and sliding left navigation for mobile and tablet devices) through the use of media queries. For the interactive drop-downs that pop up when adding content or updating account settings, I used a jQuery plugin (<a href="https://github.com/gilbitron/Dropit" target="_blank">Dropit</a>).</p>
-      <img src="images/cubby-slidingnav.png" alt="cubby-slidingnav" id="cubby-slidingnav"/>
-      <p>Click here to view the live <a href="https://mhsu121.github.io/cubby/" target="_blank">homepage</a> and <a href="https://mhsu121.github.io/cubby/dashboard.html" target="_blank">dashboard</a> that I developed for Cubby!</p>
-
-      <h2>Conclusion</h2>
-      <p>Throughout this project, I really enjoyed learning and executing each step of the design process, from thinking about the competitive landscape, launching a survey and analyzing results, building user personas, sketching out lo-fi wireframes in myBalsamiq, selecting typefaces and color schemes, drawing logo designs, creating hi-fi wireframes in Illustrator, designing full mockups in Sketch, building prototypes in InVision, and finally developing and deploying the finished product. It's amazing how much work goes in from start to finish and how much iteration the product goes through throughout the process.</p>
-      <p>The biggest takeaway for me from this project was during the color scheme and typography selection process—learning to keep in mind that I am designing for a user base, not myself, and that it doesn’t always matter what my personal preferences are. The most rewarding process was the development stage. I really enjoyed troubleshooting elements of code and figuring out the puzzle of why certain things were working or not working. It's so satisfying when you hit refresh and that last bit of code you were struggling with finally works.</p>
     </div>
   </section>
-
-  <section class="return">
+  <!-- Initial Design -->
+  <section class="no-bg">
+    <div class="title">
+      <h2>Initial Design</h2>
+    </div>
+    <div class="container">
+      <h3>Wireframes</h3>
+      <p>Using myBalsamiq, I created low-fidelity wireframes for the Cubby homepage and dashboard, which I then translated into black and white high-fidelity wireframes in Illustrator.</p>
+      <img src="images/cubby-hifi-wireframes.png" alt="cubby-hifi-wireframes" id="cubby-hifi-wireframes"/>
+      <img src="images/cubby-dashboard.jpg" alt="cubby-dashboard" id="cubby-dashboard"/>
+      <h3>Testing and Iteration</h3>
+      <p>I created a prototype in InVision using the high-fidelity wireframes I mocked up in Illustrator. I used UserTesting to test my prototype, as well as conducting in-person usability tests on three potential users. Two important pieces of feedback that I incorporated into the final design were:</p>
+      <ul>
+        <li>Moving the account settings button to the top right to make it easier and more intuitive for users to find</li>
+        <li>Moving the add button to the left to make it more prominent and the first thing the user sees as they read from left to right</li>
+      </ul>
+      <p>I also used Usability Hub to create a preference test for the placement of the Add button on the dashboard. However, as the results were inconclusive, I decided to stick to my original design in Option 2.</p>
+      <img src="images/cubby-preferencetest.png" alt="cubby-preferencetest" id="cubby-preferencetest"/>
+    </div>
+  </section>
+  <!-- Final Design -->
+  <section class="bg">
+    <div class="title">
+      <h2>Final Design</h2>
+    </div>
+    <div class="container">
+      <h3>Homepage</h3>
+      <img src="images/cubby-homepage.png" alt="cubby-homepage" id="cubby-homepage"/>
+      <h3>Dashboard and Account Settings</h3>
+      <img src="images/cubby-dashboard.png" alt="cubby-dashboard" id="cubby-dashboard"/>
+      <h3>Content Detail</h3>
+      <img src="images/cubby-content.png" alt="cubby-content" id="cubby-content"/>
+    </div>
+  </section>
+  <!-- Development -->
+  <section class="no-bg">
+    <div class="title">
+      <h2>Development</h2>
+    </div>
+    <div class="container">
+      <p>In the development phase, I focused on building a responsive site using mobile-first principles. I included a hamburger icon and sliding left navigation for mobile and tablet devices through the use of media queries. For the interactive drop-down menus, I used a jQuery plugin (<a href="https://github.com/gilbitron/Dropit" target="_blank">Dropit</a>). Click here to view the live <a href="https://mhsu121.github.io/cubby/" target="_blank">homepage</a> and <a href="https://mhsu121.github.io/cubby/dashboard.html" target="_blank">dashboard</a> that I developed for Cubby!</p>
+      <img src="images/cubby-slidingnav.png" alt="cubby-slidingnav" id="cubby-slidingnav"/>
+    </div>
+  </section>
+  <!-- Conclusion -->
+  <section class="bg">
+    <div class="title">
+      <h2>Conclusion</h2>
+    </div>
+    <div class="container">
+      <p>Throughout this project, I really enjoyed learning and executing each step of the design process. It's amazing how much work goes in from start to finish and how much iteration the product goes through throughout the process.</p>
+      <p>The biggest takeaway for me from this project was during the color scheme and typography selection process—learning to keep in mind that I am designing for a user base, not myself, and that it doesn’t always matter what my personal preferences are.</p>
+    </div>
     <div class="container">
       <h5><a href="#top">Return to top&nbsp;&nbsp;<i class="fas fa-angle-double-up"></i></a></h5>
     </div>
   </section>
-
+<!-- Bottom Nav -->
   <section class="bottom-nav-light">
     <div class="container">
       <h1>Browse other projects</h1>
