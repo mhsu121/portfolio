@@ -67,6 +67,7 @@
     </div>
     <div class="container">
       <p>I love trying out new recipes, but I hate wasting food. Time and time again, I find myself buying obscure ingredients for a new recipe, only to be left puzzling over what to do with half a pound of dried shiitake mushrooms and ricotta cheese. Pairings is a web-based cooking application that allows users to search for recipes based on the ingredients they already have.</p>
+      <img src="images/pairings-solution.png" alt="pairings-solution" id="pairings-solution" />
       <p><a href="https://projects.invisionapp.com/share/5JOD5VOHZ62#/screens" target="_blank">Click here</a> to view a working prototype of Pairings!</p>
     </div>
   </section>
@@ -105,25 +106,33 @@
     <div class="container">
       <h3>Competitive Analysis</h3>
       <p>Before jumping into design, I looked at a few of the cooking applications on the market—and there are a TON out there. From this research, I concluded that the cooking application market is extremely fragmented with many players. The ones that seem able to stand out and succeed are the ones that take a niche aspect and focus on it. Unique features are important in this space. The ones that try to wear too many hats and are more “generic” fade into the background.</p>
-
       <h3>User Research</h3>
       <p>In order to better understand potential users and how to best meet their needs, I wrote and fielded a survey, which reached 33 responses. Based on the survey results, I discovered that:</p>
-      <ul>
-        <li>Most respondents cook multiple times a week and are fairly familiar with cooking. They typically cook for themselves or one additional person. Pain points with the process include that cooking takes too long, they don’t know what recipes to make, and that it’s hard to cook for just one person.</li>
-        <li>~80% of respondents look to websites and food blogs for new recipes. The two most important selection criteria are cooking time and what ingredients they already have on hand.</li>
-        <li>Respondents use a variety of devices, including mobile devices, laptops, tablets, and pen and paper—a responsive solution across devices will be best for this application.</li>
-        <li>Respondents skew younger, most being under 35, and are mostly working full-time or are students.</li>
-      </ul>
+      <div class="survey-results">
+        <h5><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;<i class="fas fa-laptop"></i></h5>
+        <h6>100%</h6>
+        <p>of respondents use <b>both smartphone & laptop</b> to access content</p>
+      </div>
+      <div class="survey-results">
+        <h5><i class="fas fa-utensils"></i></h5>
+        <h6>~60%</h6>
+        <p>select recipes by <b>cuisine</b>; other criteria are <b># of ingredients</b> & <b>cook time</b></p>
+      </div>
+      <div class="survey-results">
+        <h5><i class="fas fa-user"></i>&nbsp;&nbsp;<i class="fas fa-home"></i></h5>
+        <h6>~65%</h6>
+        <p>are <b>under age 35</b>; all respondents live in <b>suburban & urban</b> locales</p>
+      </div>
       <p>Click here to see <a href="https://docs.google.com/document/d/12G6r8nqQv0hNUZPB-3vaT2bjyCXp-GCGph-36GcVSDo/edit?usp=sharing" target="_blank">detailed survey results</a> and a copy of the <a href="https://docs.google.com/document/d/1sWPVhqTTTl6HUAVOSRRusTyLVSQmndjYYYuc_n9r_Zo/edit?usp=sharing" target="_blank">survey document</a>.</p>
-
-      <h3>User Stories, Flows, and Sitemap</h3>
+      <h3>User Stories</h3>
       <p>I created user stories and diagrammed user flows based on a list of tasks for different user types to complete.</p>
       <img src="images/pairings-userstories.png" alt="pairings-userstories" id="pairings-userstories"/>
+      <h3>User Flows</h3>
       <img src="images/pairings-userflow1.png" alt="pairings-userflow1" id="pairings-userflow1"/>
       <img src="images/pairings-userflow2.png" alt="pairings-userflow2" id="pairings-userflow2"/>
+      <h3>Site Map</h3>
       <p>From there, I created a quick sitemap in myBalsamiq to help layout the pages I needed to create.</p>
       <img src="images/pairings-sitemap.png" alt="pairings-sitemap" id="pairings-sitemap"/>
-
     </div>
   </section>
 <!-- branding -->
@@ -133,22 +142,19 @@
     </div>
     <div class="container">
       <h3>Logo Design</h3>
+      <p>To get some quick ideas for a product name and logo design, I laid out a quick mind map for terms associated with cooking. The word <b>“Pairings”</b> stood out to me, and I drew up some logo sketches playing around with the shapes of the letters and eating utensils.</p>
       <div class="one-half">
         <img src="images/pairings-mind-map.JPG" alt="pairings-mind-map" id="pairings-mind-map"/>
       </div>
       <div class="one-half">
         <img src="images/pairings-logo-design.JPG" alt="pairings-logo-design" id="pairings-logo-design"/>
       </div>
-      <p>To get some quick ideas for a product name and logo design, I laid out a quick mind map for terms associated with cooking. The word <b>“Pairings”</b> stood out to me, and I drew up some logo sketches playing around with the shapes of the letters and eating utensils.</p>
-      <div class="one-half">
-        <img src="images/pairings-usertesting.png" alt="pairings-usertesting" id="usertesting-img"/>
-      </div>
-      <div class="one-half">
-        <p>Some initial feedback was that the term “Pairings” might be too closely associated with wine and cheese pairings, so I ran a quick user test in <a href="https://usabilityhub.com/" target="_blank">Usability Hub</a> to see if the application name would be confusing.</p>
-        <p>There were mixed responses from users, ranging from dating app for foodies to coordinating dinner dates to wine pairings to pairing ingredients for menu items.</p>
-        <p>While the results were inconclusive at best, I took that as a result in itself—I decided to run with the name Pairings, keeping in mind that the product will likely need good framing and an introductory explanation to indicate that it’s food / cooking-related.</p>
-      </div>
-
+      <img src="images/pairings-usertesting.png" alt="pairings-usertesting" id="usertesting-img"/>
+      <p>Some initial feedback was that the term “Pairings” might be too closely associated with wine and cheese pairings, so I ran a quick user test in <a href="https://usabilityhub.com/" target="_blank">Usability Hub</a> to see if the application name would be confusing.</p>
+      <p>There were mixed responses from users, ranging from dating app for foodies to coordinating dinner dates to wine pairings to pairing ingredients for menu items.</p>
+      <p>While the results were inconclusive at best, I took that as a result in itself—I decided to run with the name Pairings, keeping in mind that the product will likely need good framing and an introductory explanation to indicate that it’s food / cooking-related.</p>
+    </div>
+    <div class="container">
       <h3>Style Guide</h3>
       <p>I put together a comprehensive style guide to use as a foundation for my high-fidelity mockups, including logo, typography, color palette, and button / form definitions.</p>
       <p>Since so much of cooking is about the visual and I knew I would be including many colorful images of food and ingredients, I wanted to stick to simple, fresh, vibrant colors that would complement those images and remind people of food.</p>
@@ -165,39 +171,28 @@
       <p>I started off with some hand drawn wireframes, which I translated into low-fidelity wireframes using Sketch.</p>
       <img src="images/pairings-hand-wireframes.png" alt="pairings-hand-wireframes" id="pairings-hand-wireframes"/>
       <img src="images/pairings-lofi-wireframes.png" alt="pairings-lofi-wireframes" id="pairings-lofi-wireframes"/>
-      <p>Using the lo-fi wireframes, I created a prototype using <a href="https://projects.invisionapp.com/share/5JOD5VOHZ62#/screens" target="_blank">InVision</a> to test my designs with users.</p>
-
-      <h3>User Testing</h3>
-      <p>Through <a href="https://www.usertesting.com/" target="_blank">UserTesting.com</a>, I tested my prototype with three users. The feedback I received was really insightful to making my designs more intuitive and user-friendly, including adding more description on the homepage of what the product actually does so users can be aware of features before they sign up, and adding options for gluten-free and paleo eaters.</p>
-      <p><a href="https://www.usertesting.com/r/kT6-hQxYsqUbyKi22ARz" target="_blank">Click here</a> for detailed recordings of the testing process.</p>
-    </div>
-  </section>
-<!-- final design -->
-  <section class="bg">
-    <div class="title">
-      <h2>Final Design</h2>
-    </div>
-    <div class="container">
-      <p>After defining the style guide, it was time to move onto design! This was an extremely iterative process and I played around with multiple options for the pantry dashboard before settling on the final version. Some design decisions I incorporated during this final phase:</p>
+      <p>Using the lo-fi wireframes, I created a working prototype using InVision to test my designs with users.</p>
+      <h3>Testing and Iteration</h3>
+      <p>Through <a href="https://www.usertesting.com/" target="_blank">UserTesting.com</a>, I tested my prototype with three users. The feedback I received was really insightful to making my designs more intuitive and user-friendly. Some changes I incorporated into the final design based on user feedback:</p>
       <ul>
-        <li>
-          <p>The option to toggle between icon view and list view when users add items. This allows users to select which option they prefer—some users may be overwhelmed by too many icons</p>
-          <img src="images/pairings-icontoggle.png" alt="pairings-icontoggle" id="pairings-icontoggle"/>
-        </li>
         <li>
           <p>Updating the homepage design to have clearer indications of product features and adding a third pricing tier</p>
           <img src="images/pairings-homepage.png" alt="pairings-homepage" id="pairings-homepage"/>
         </li>
         <li>
-          <p>Adding a task to the sign on flow where users select their “Recipe Profile”</p>
+          <p>Adding a task to the sign on flow where users select their “Recipe Profile”, including options for gluten-free and paleo eaters</p>
           <img src="images/pairings-recipeprofile.png" alt="pairings-recipeprofile" id="pairings-recipeprofile"/>
+        </li>
+        <li>
+          <p>The option to toggle between icon view and list view when users add items. This allows users to select which option they prefer—some users may be overwhelmed by too many icons</p>
+          <img src="images/pairings-icontoggle.png" alt="pairings-icontoggle" id="pairings-icontoggle"/>
         </li>
       </ul>
       <p><a href="https://projects.invisionapp.com/share/5JOD5VOHZ62#/screens" target="_blank">Click here</a> to view a working prototype of Pairings!</p>
     </div>
   </section>
 <!-- conclusion -->
-  <section class="no-bg">
+  <section class="bg">
     <div class="title">
       <h2>Conclusion</h2>
     </div>

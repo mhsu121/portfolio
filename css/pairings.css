@@ -50,11 +50,20 @@ main h3, h6 {
   width:auto;
 }
 
+/* SURVEY RESULTS */
+.survey-results {
+  background-color: rgb(139,194,95,0.25); /* transparent green */
+}
+.survey-results h5 {
+  color: rgb(139,194,95,0.4); /* transparent green */
+}
+
 /* IMG SIZING */
 @media (min-width: 762px) {
   #usertesting-img {
     width: auto;
     margin: 0 30px 30px 0;
+    float:left;
   }
   #pairings-userstories, #pairings-styleguide {
     width: 80%;
