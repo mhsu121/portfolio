@@ -182,13 +182,3 @@ header {
     position: relative;
   }
 }
-
-/* CONTACT */
-.contact {
-  background-color: #0A2139; /* navy */
-  padding: 2em 0;
-}
-.contact h1, .contact p {
-  text-align:center;
-  color: #FFFFFF; /* white */
-}
