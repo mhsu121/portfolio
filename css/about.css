@@ -70,7 +70,6 @@ main h2 {
 .bg {
   padding:30px 0;
   background-color: rgb(134,193,173,0.25); /* transparent turquoise */
-  visibility: visible;
 }
 
 /* IMG CARD */
@@ -82,7 +81,6 @@ main h2 {
   display: block;
   margin: 30px auto;
   padding: 60px 40px 0;
-  visibility: visible;
 }
 @media (min-width: 768px) {
   .img-card {
