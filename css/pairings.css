@@ -14,7 +14,7 @@ main h3, h6 {
   border-left: 35px solid #8BC25F; /* green */
 }
 .bg {
-  background-color: rgb(139,194,95,0.25); /* transparent green */
+  background-color: #E5F1DB; /* light green */
 }
 
 /*OVERVIEW*/
@@ -52,10 +52,10 @@ main h3, h6 {
 
 /* SURVEY RESULTS */
 .survey-results {
-  background-color: rgb(139,194,95,0.25); /* transparent green */
+  background-color: #E5F1DB; /* light green */
 }
 .survey-results h5 {
-  color: rgb(139,194,95,0.4); /* transparent green */
+  color: #BADBA0; /* light green */
 }
 
 /* IMG SIZING */
