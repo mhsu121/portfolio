@@ -16,6 +16,11 @@ header {
   }
 }
 
+/* HERO */
+.hero .container {
+  margin-top: 200px;
+}
+
 /* PROJECTS */
 .projects {
   padding: 1em 0;
