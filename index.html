@@ -39,7 +39,7 @@
       <div class="one-half">
         <ul class="navlinks">
           <li><a href="about.html">About Me</a></li>
-          <li><a href="index.html">Projects</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -112,6 +112,11 @@
       </li>
     </ul>
   </section>
+  <section class="no-bg">
+    <div class="container">
+      <h5><a href="#top">Return to top&nbsp;&nbsp;<i class="fas fa-angle-double-up"></i></a></h5>
+    </div>
+</section>
 
   <!-- contact -->
   <section class="contact">
@@ -141,45 +146,8 @@
 </footer>
 
 <!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="js/jquery.js"></script>
-<script type="text/javascript">
-    // Select all links with hashes
-    $('a[href*="#"]')
-      // Remove links that don't actually link to anything
-      .not('[href="#"]')
-      .not('[href="#0"]')
-      .click(function(event) {
-        // On-page links
-        if (
-          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-          &&
-          location.hostname == this.hostname
-        ) {
-          // Figure out element to scroll to
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          // Does a scroll target exist?
-          if (target.length) {
-            // Only prevent default if animation is actually gonna happen
-            event.preventDefault();
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 600, function() {
-              // Callback after animation
-              // Must change focus!
-              var $target = $(target);
-              $target.focus();
-              if ($target.is(":focus")) { // Checking if the target was focused
-                return false;
-              } else {
-                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                $target.focus(); // Set focus again
-              };
-            });
-          }
-        }
-      });
-</script>
 
 </body>
 
