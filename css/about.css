@@ -99,7 +99,12 @@ main h2 {
   margin:40px 0 30px;
   background-color: #FFFFFF; /* white */
   border-radius: 25px;
-  padding:30px;
+  padding:20px 30px 40px;
+}
+@media (min-width: 768px) {
+  #credentials {
+    padding:20px 50px 40px;
+  }
 }
 @media (min-width: 992px) {
   #credentials {
@@ -110,6 +115,18 @@ main h2 {
 #credentials h3 {
   color: #86C1AD; /* turquoise */
   text-align:center;
+}
+#credentials ul {
+  list-style:none;
+  padding:0;
+  display: inline;
+  float: none;
+  margin:0;
+}
+#credentials i {
+  color: #86C1AD; /* turquoise */
+  font-size:20px;
+  margin-right:20px;
 }
 
 /* IMG SIZING */
