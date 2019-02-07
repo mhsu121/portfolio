@@ -13,6 +13,7 @@ header {
 main {
   text-align:center;
   padding-bottom:2em;
+  background-color: #E1F0EB; /* light turquoise */
 }
 .form {
   padding: 2em 0;
@@ -23,7 +24,7 @@ input[type=text], input[type=email], textarea[name=message] {
   width: 330px;
   margin: 0px auto 15px;
   padding: 15px;
-  border: 1px solid #CCCCCC; /* light grey */
+  border: 1px solid #FFFFFF; /* white */
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
