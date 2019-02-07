@@ -2,17 +2,21 @@
 header {
   background-color: #0A2139; /* navy */
   background-image: url("../images/projects-hero-small.jpg");
-  background-size:contain;
+  background-size:cover;
 }
-@media (min-width: 650px) {
+@media (min-width: 600px) {
   header {
     background-image: url("../images/projects-hero-medium.jpg");
-    background-size:cover;
   }
 }
 @media (min-width: 992px) {
   header {
     background-image: url("../images/projects-hero-large.jpg");
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-image: url("../images/projects-hero-xlarge.jpg");
   }
 }
 
@@ -39,14 +43,14 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   width: 360px;
-  padding: 230px 5px 5px;
-  margin: 0 auto;
+  padding: 230px 5px 0;
+  margin: 0 auto 50px;
   position: relative;
 }
 @media (min-width: 768px) {
   .portfolio-item {
     width: 500px;
-    padding: 310px 30px 20px;
+    padding: 310px 30px 0;
   }
 }
 @media (min-width: 992px) {
@@ -54,14 +58,15 @@ header {
     background-size: cover;
     height: 370px;
     width: 455px;
-    padding: 10px 30px;
+    padding: 10px 30px 0;
+    margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
   .portfolio-item {
     height: 455px;
     width: 560px;
-    padding: 20px 40px;
+    padding: 20px 40px 0;
   }
 }
 .portfolio-item.pairings {
@@ -71,6 +76,7 @@ header {
 .portfolio-item.cubby {
   background-image: url("../images/cubby.png");
   background-color: #FFFFFF; /* white */
+  margin: 0 auto 40px;
 }
 .portfolio-item.busybus {
   background-image: url("../images/busybus.png");
@@ -79,6 +85,7 @@ header {
 .portfolio-item.craigslist {
   background-image: url("../images/craigslist.png");
   background-color: #FFFFFF; /* white */
+  margin: 0 auto;
 }
 @media (min-width: 992px) {
   .portfolio-item.pairings {
@@ -86,6 +93,7 @@ header {
   }
   .portfolio-item.cubby {
     background-color: #3498DB; /* bright blue */
+    margin: 0 auto;
   }
   .portfolio-item.busybus {
     background-color: #6C0090; /* purple */
@@ -96,7 +104,8 @@ header {
 }
 .portfolio-btn {
   background-color: #86C1AD; /* turquoise */
-  padding: 10px 10px;
+  width: 170px;
+  padding: 15px 10px;
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 300;
@@ -112,15 +121,17 @@ header {
 }
 @media (min-width: 768px) {
   .portfolio-btn {
+    width: 215px;
     padding: 15px 30px;
     font-size: 16px;
   }
 }
 @media (min-width: 992px) {
   .portfolio-btn {
+    width: 190px;
     background-color: transparent;
     border: 2px solid white;
-    padding: 10px 20px;
+    padding: 10px 15px;
     color: #FFFFFF; /* white */
   }
   .portfolio-btn:hover {
@@ -131,6 +142,7 @@ header {
 }
 @media (min-width: 1200px) {
   .portfolio-btn {
+    width: 230px;
     padding: 15px 30px;
     font-size: 16px;
   }
@@ -173,7 +185,7 @@ header {
     height:100%;
     display: none;
     z-index:0;
-    background-color: rgba(0,0,0,0.75); /* 75% opacity black */
+    background-color: rgba(0,0,0,0.85); /* 85% opacity black */
   }
   .overlay:hover:before {
     display: block;
@@ -185,7 +197,7 @@ header {
 
 /* RETURN */
 .no-bg {
-  padding:5px 0 30px 0;
+  padding:0 0 30px 0;
 }
 main h5 {
   text-align: center;
