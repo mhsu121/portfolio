@@ -4,7 +4,7 @@ header {
 }
 
 /* CASE STUDY */
-main h3, h6 {
+main h3 {
   color: #8BC25F; /* green */
 }
 .title {
@@ -26,12 +26,12 @@ main h3, h6 {
 }
 @media (min-width:992px) {
   #pairings-overview {
-    height:530px;
+    height:550px;
   }
 }
 @media (min-width:1200px) {
   #pairings-overview {
-    height:460px;
+    height:500px;
   }
 }
 #pairings-overview h3 {
@@ -54,7 +54,7 @@ main h3, h6 {
 .survey-results {
   background-color: #E5F1DB; /* light green */
 }
-.survey-results h5 {
+.survey-results h6 {
   color: #BADBA0; /* light green */
 }
 
@@ -64,31 +64,6 @@ main h3, h6 {
     width: auto;
     margin: 0 30px 30px 0;
     float:left;
-  }
-  #pairings-userstories, #pairings-styleguide {
-    width: 80%;
-  }
-  #pairings-mind-map, #pairings-logo-design {
-    width: 95%;
-  }
-  #pairings-icontoggle, #pairings-homepage, #pairings-recipeprofile {
-    width: 90%;
-  }
-  #pairings-userflow1, #pairings-userflow2 {
-    width: 49%;
-    display: inline;
-    margin-right:5px;
-    vertical-align: top;
-  }
-  #pairings-hand-wireframes {
-    width: 47%;
-    display: inline;
-    margin-right:5px;
-  }
-  #pairings-lofi-wireframes {
-    width: 51%;
-    display: inline;
-    margin-left:5px;
   }
 }
 

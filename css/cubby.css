@@ -26,7 +26,7 @@ main h3, h6 {
 }
 @media (min-width:992px) {
   #cubby-overview {
-    height:510px;
+    height:550px;
   }
 }
 #cubby-overview h3 {
@@ -69,7 +69,7 @@ main h3, h6 {
 .survey-results {
   background-color: #D8EAF6; /* light blue */
 }
-.survey-results h5 {
+.survey-results h6 {
   color: #ADD8F5; /* transparent bright blue */
 }
 
@@ -79,49 +79,30 @@ main h3, h6 {
   margin-bottom:50px;
   width: auto;
 }
+@media (min-width: 992px) {
+  #logo {
+    height:28px;
+  }
+}
 #cubby-logooptions {
   background-color:#FFFFFF;
   padding:30px;
 }
-@media (min-width: 762px) {
-  #cubby-solution, #cubby-hifi-wireframes, #cubby-homepage, #cubby-dashboard, #cubby-preferencetest {
-    width: 80%;
-  }
+@media (min-width: 768px) {
   #cubby-typefaces, #cubby-colorpalette {
     width: 65%;
     float: right;
     margin-top:0px;
     margin-left: 30px;
   }
-  #cubby-logosketches {
-    width:80%;
-  }
   #cubby-logooptions {
-    width:40%;
+    width:50%;
   }
-  #cubby-logo, #cubby-slidingnav {
+  #cubby-logo {
     width: 50%;
   }
-}
-@media (min-width: 992px) {
-  #cubby-logosketches {
-    height: 400px;
-    width: auto;
-    display:inline;
-    margin:10px 10px 10px 40px;
-  }
-  #cubby-logooptions {
-    height: 400px;
-    width: auto;
-    background-color:#FFFFFF;
-    padding:30px;
-    display:inline;
-    margin:10px;
-  }
-}
-@media (min-width: 1200px) {
-  #cubby-logosketches {
-    margin-left:80px;
+  #cubby-slidingnav {
+    width: 80%;
   }
 }
 

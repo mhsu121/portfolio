@@ -65,11 +65,13 @@ h1, h2, h3, h4, h5, h6, p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 h1 {
-  font-size: 24px;
+  text-align:center;
+  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 700;
-  color: #333333; /* dark grey */
+  color: #333333; /* dark gray */
+  line-height: normal;
 }
 h2 {
   font-size: 24px;
@@ -77,41 +79,51 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #333333; /* dark gray */
+  line-height: normal;
 }
 h3 {
   font-size: 20px;
   font-weight: 700;
-  color: #999999; /* medium grey */
+  line-height: normal;
 }
 h4 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #FFFFFF; /* white */
+  line-height: 1.5;
+}
+h5 {
   font-size: 12px;
   font-weight: 700;
-  line-height:20px;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: #86C1AD; /* turquoise */
-}
-h5 {
-  font-size: 14px;
-  font-weight: 300;
-  color: #333333; /* dark grey */
+  line-height: 1.5;
 }
 h6 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #333333; /* dark grey */
-  text-align:center;
-  margin:0;
-  line-height:22px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #FFFFFF; /* white */
+  text-align: center;
+  line-height: 1.5;
 }
 p {
   font-size: 16px;
   font-weight: 300;
   color: #333333; /* dark grey */
-  line-height:34px;
+  line-height: 1.9;
 }
 main b {
   font-weight:700;
+}
+ul > li {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #333333; /* dark grey */
+  line-height:1.5;
+  margin-bottom:15px;
 }
 a {
   font-family: "Open Sans";
@@ -174,16 +186,10 @@ a:hover {
   color: #FFFFFF; /* white */
   text-decoration: none;
 }
-ul > li {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 34px;
-  color: #333333; /* dark grey */
-}
 .title {
   width: 500px;
   height: 50px;
+  margin-bottom:15px;
 }
 .title:before {
     content: '';
@@ -199,7 +205,7 @@ header {
   background-size: cover;
 }
 header nav {
-  padding: 10px 0 5px;
+  padding: 15px 0 5px;
   text-align: center;
 }
 .top-header {
@@ -212,7 +218,6 @@ header nav {
   letter-spacing: 0.15em;
   font-weight: 400;
   color: #333333; /* dark grey */
-  line-height:normal;
 }
 .last-name {
   color: #86C1AD; /* turquoise */
@@ -238,10 +243,11 @@ header nav ul li {
   font-weight: 300;
 }
 .navlinks > li > a:hover {
-  color: #333333; /* dark grey */
+  color: #333333; /* navy */
   text-decoration: none;
   padding-bottom: 4px;
   border-bottom: 2px solid #86C1AD; /* turquoise */
+  transition: all 0.3s ease;
 }
 @media (min-width:992px) {
   header nav {
@@ -256,67 +262,56 @@ header nav ul li {
   display:block;
   position: relative;
 }
-@media (min-width: 768px) {
-  .hero {
-    padding: 1.5em 0 4em;
-  }
-}
-@media (min-width: 992px) {
-  .hero {
-    padding: 3em 0 4em;
-  }
-}
 .hero .container {
   width: 100%;
   background-color: #0A2139; /* navy */
-  position:relative;
+  position:absolute;
+  bottom: -90vh;
   padding:10px 20px 20px;
-  margin: 230px 0 0;
 }
 @media (min-width: 768px) {
   .hero .container {
-    width: 500px;
-    padding: 10px 50px 15px;
+    position:absolute;
+    bottom: -82vh;
+    width: 550px;
+    padding: 10px 50px;
     background-color: rgba(10, 33, 57, 0.7); /* transparent navy */
   }
 }
 @media (min-width: 992px) {
   .hero .container {
-    width: 700px;
-    padding: 20px 80px 30px;
-  }
-}
-.hero h1, .hero p, .hero h5 {
-  text-align:center;
-  color: #FFFFFF; /* white */
-}
-@media (min-width: 768px) {
-  .hero h1, .hero p, .hero h5 {
-    text-align:left;
+    width: 680px;
   }
 }
 .hero h1 {
-  line-height:44px;
-}
-@media (min-width: 768px) {
-  .hero h1 {
-    font-size:32px;
-  }
-}
-@media (min-width: 992px) {
-  .hero h1 {
-    font-size:44px;
-  }
-}
-.hero h3 {
-  font-size: 16px;
-  font-weight: 300;
+  text-align: center;
   color: #FFFFFF; /* white */
-  line-height:28px;
+}
+.hero h4 {
+  text-align: center;
+}
+.hero p {
+  text-align: center;
 }
 @media (min-width: 768px) {
-  .hero h1, .hero h3 {
-    padding-bottom:0;
+  .hero h1 {
+    font-size: 36px;
+    text-align:left;
+  }
+  .hero h4 {
+    font-size: 18px;
+    text-align:left;
+  }
+  .hero h6 {
+    text-align:left;
+  }
+  .hero p {
+    text-align:left;
+  }
+}
+@media (min-width:992px) {
+  .hero h1 {
+    font-size: 44px;
   }
 }
 .hero-btn {
@@ -336,7 +331,12 @@ header nav ul li {
   text-decoration: none;
 }
 
-/* CONTACT */
+/* MAIN */
+#text {
+  max-width: 720px;
+}
+
+/* LAST CALL */
 .contact {
   background-color: #0A2139; /* navy */
   padding: 1.5em 0 2em;

@@ -10,6 +10,9 @@ main h3 {
 main h3, h6 {
   color: #002661; /* dark blue */
 }
+main img {
+  box-shadow: 2px 2px 10px #999999;
+}
 .title {
   background-color: #002661; /* dark blue */
 
@@ -30,12 +33,12 @@ main h3, h6 {
 }
 @media (min-width:992px) {
   #craigslist-overview {
-    height:430px;
+    height:450px;
   }
 }
 @media (min-width:1200px) {
   #craigslist-overview {
-    height:400px;
+    height:420px;
   }
 }
 #craigslist-overview h3 {
@@ -52,24 +55,7 @@ main h3, h6 {
 #craigslist-overview img {
   height:30px;
   width:auto;
-}
-
-/* IMAGE SIZING */
-@media (min-width: 768px) {
-  #craigslist-mindmap {
-   width: 70%;
-   float: right;
-   margin: 15px 0 15px 30px;
-
- }
-  #craigslist-logo-sketch {
-    width: 80%;
-  }
-  #craigslist-styleguide {
-    width: 60%;
-    float: left;
-    margin: 0 30px 30px 0;
-  }
+  box-shadow: 0 0 0;
 }
 
 /* BOTTOM NAV */

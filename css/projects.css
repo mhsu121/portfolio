@@ -1,10 +1,15 @@
 /* HEADER */
 header {
   background-color: #0A2139; /* navy */
-  background-image: url("../images/projects-hero-small.jpg");
-  background-size:cover;
+  background-image: url("../images/projects-hero-xsmall.jpg");
+  height:100vh;
 }
-@media (min-width: 600px) {
+@media (min-width: 420px) {
+  header {
+    background-image: url("../images/projects-hero-small.jpg");
+  }
+}
+@media (min-width: 768px) {
   header {
     background-image: url("../images/projects-hero-medium.jpg");
   }
@@ -35,7 +40,7 @@ header {
 }
 .projects p {
   text-align:left;
-  line-height: 24px;
+  line-height:1.5;
 }
 
 /* PORTFOLIO ITEMS */
@@ -197,8 +202,5 @@ header {
 
 /* RETURN */
 .no-bg {
-  padding:0 0 30px 0;
-}
-main h5 {
-  text-align: center;
+  padding:0 0 1.5em 0;
 }

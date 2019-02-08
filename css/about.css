@@ -1,44 +1,39 @@
 /* HEADER */
 header {
-  background-image: url("../images/about-hero-small.JPG");
+  background-image: url("../images/about-hero-xsmall.JPG");
   background-color: #E2E2E2; /* light grey */
+  height:100vh;
+}
+@media (min-width:420px) {
+  header {
+    background-image: url("../images/about-hero-small.JPG");
+  }
 }
 @media (min-width:768px) {
   header {
     background-image: url("../images/about-hero-medium.JPG");
   }
 }
-@media (min-width:992px) {
+@media (min-width:1200px) {
   header {
     background-image: url("../images/about-hero-large.JPG");
   }
 }
-@media (min-width:1200px) {
-  header {
-    background-image: url("../images/about-hero-xlarge.JPG");
+
+/* HERO */
+@media (min-width: 768px) {
+  .hero .container {
+    position:absolute;
+    right: 0;
   }
 }
 
 /* MY STORY */
-main .container {
-  width: 360px;
-}
-@media (min-width: 768px) {
-  main .container {
-    width: 738px;
-  }
-}
-@media (min-width: 992px) {
-  main .container {
-    width: 962px;
-  }
-}
 main h1, h5 {
   text-align: center;
 }
 main h2 {
   margin-left:30px;
-  line-height:34px;
   color:#FFFFFF;
   font-weight:700;
   padding-top:8px;
@@ -91,7 +86,6 @@ main h2 {
 .img-card p {
   text-align:center;
   font-size:14px;
-  line-height:22px;
 }
 
 /* MY CREDENTIALS */
@@ -108,8 +102,14 @@ main h2 {
 }
 @media (min-width: 992px) {
   #credentials {
+    height: 350px;
     width:48%;
     margin:40px 1% 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #credentials {
+    height: 300px;
   }
 }
 #credentials h3 {
@@ -122,6 +122,11 @@ main h2 {
   display: inline;
   float: none;
   margin:0;
+}
+#credentials ul > li {
+  text-indent:-22px;
+  margin-left:40px;
+  margin-bottom:15px;
 }
 #credentials i {
   color: #86C1AD; /* turquoise */

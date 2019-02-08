@@ -4,7 +4,7 @@ header {
 }
 
 /* CASE STUDY */
-main h3, h6 {
+main h3 {
   color: #6C0090; /* purple */
 }
 .title {
@@ -14,24 +14,25 @@ main h3, h6 {
   border-left: 35px solid #6C0090; /* purple */
 }
 .bg {
-  background-color: #DFCEE5; /* light purple */
+  background-color: #F3E4F8; /* light purple */
 }
 
 /*OVERVIEW*/
 #busybus-overview {
   margin-top:30px;
+  margin-bottom:20px;
   background-color: #FFFFFF; /*white*/
   border-radius: 25px;
-  padding:30px 30px 15px;
+  padding:20px 30px;
 }
 @media (min-width:992px) {
   #busybus-overview {
-    height:470px;
+    height:510px;
   }
 }
 @media (min-width:1200px) {
   #busybus-overview {
-    height:430px;
+    height:480px;
   }
 }
 #busybus-overview h3 {
@@ -48,6 +49,28 @@ main h3, h6 {
 #busybus-overview img {
   height:30px;
   width:auto;
+}
+
+/* DEFINING KEY ISSUES */
+.goals {
+  margin-top:30px;
+  margin-bottom:20px;
+  background-color: #FFFFFF; /*white*/
+  border-radius: 25px;
+  padding:20px 30px;
+}
+.goals h3 {
+  text-align:center;
+}
+.goals ul {
+  list-style:none;
+  padding:0;
+}
+.goals ul > li {
+  padding: 15px;
+}
+.goals ul > li:nth-child(odd) {
+  background-color: #F3E4F8; /* light purple */
 }
 
 /* BOTTOM NAV */
@@ -67,10 +90,5 @@ main h3, h6 {
     width:60%;
     float:right;
     margin: 10px 0 10px 30px;
-  }
-}
-@media (min-width: 992px) {
-  #moovit-detail, #transit-detail {
-    width:80%;
   }
 }

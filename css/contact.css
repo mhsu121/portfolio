@@ -2,6 +2,7 @@
 header {
   background-image: url("../images/contact-hero-small.jpg");
   background-color: #E2E2E2; /* light grey */
+  height:100vh;
 }
 @media (min-width: 768px) {
   header {
@@ -12,11 +13,11 @@ header {
 /* FORM */
 main {
   text-align:center;
-  padding-bottom:2em;
+  padding-bottom:1em;
   background-color: #E1F0EB; /* light turquoise */
 }
 .form {
-  padding: 2em 0;
+  padding: 2em 0 0.5em;
 }
 input[type=text], input[type=email], textarea[name=message] {
   font-family: "Open Sans";
