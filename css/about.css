@@ -1,7 +1,7 @@
 /* HEADER */
 header {
   background-image: url("../images/about-hero-xsmall.JPG");
-  background-color: #E2E2E2; /* light grey */
+  background-color: #0A2139; /* navy */
   height:100vh;
 }
 @media (min-width:420px) {
@@ -28,31 +28,9 @@ header {
   }
 }
 
-/* MY STORY */
-main h1, h5 {
-  text-align: center;
-}
-main h2 {
-  margin-left:30px;
-  color:#FFFFFF;
-  font-weight:700;
-  padding-top:8px;
-}
-@media (min-width:762px) {
-  main h2 {
-    margin-left:50px;
-  }
-}
-@media (min-width:1200px) {
-  main h2 {
-    margin-left:100px;
-  }
-}
+/* MAIN */
 .title {
-  background-color: #86C1AD; /* turquoise */
-}
-.title:before {
-  border-left: 35px solid #86C1AD; /* turquoise */
+  border-bottom: 3px solid #86C1AD; /* turquoise */
 }
 .no-bg {
   padding:30px 0;
@@ -62,54 +40,24 @@ main h2 {
   background-color: #E1F0EB; /* light turquoise */
 }
 
-/* IMG CARD */
-.img-card {
-  background-color: #E1F0EB; /* light turquoise */
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  display: block;
-  margin: 30px auto;
-  padding: 60px 40px 0;
-}
-@media (min-width: 768px) {
-  .img-card {
-    display: inline-block;
-    margin: 10px 26px;
-  }
-}
-@media (min-width: 992px) {
-  .img-card {
-    margin: 10px 4px;
-  }
-}
-.img-card p {
-  text-align:center;
-  font-size:14px;
-}
-
 /* MY CREDENTIALS */
 #credentials {
   margin:40px 0 30px;
   background-color: #FFFFFF; /* white */
   border-radius: 25px;
-  padding:20px 30px 40px;
+  padding:10px 30px 20px;
 }
 @media (min-width: 768px) {
   #credentials {
-    padding:20px 50px 40px;
+    padding:10px 50px 20px;
   }
 }
 @media (min-width: 992px) {
   #credentials {
-    height: 350px;
+    height: 370px;
     width:48%;
     margin:40px 1% 30px;
-  }
-}
-@media (min-width: 1200px) {
-  #credentials {
-    height: 300px;
+    padding:10px 30px 20px;
   }
 }
 #credentials h3 {

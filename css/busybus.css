@@ -8,10 +8,7 @@ main h3 {
   color: #6C0090; /* purple */
 }
 .title {
-  background-color: #6C0090; /* purple */
-}
-.title:before {
-  border-left: 35px solid #6C0090; /* purple */
+  border-bottom: 3px solid #6C0090; /* purple */
 }
 .bg {
   background-color: #F3E4F8; /* light purple */
@@ -70,7 +67,7 @@ main h3 {
   padding: 15px;
 }
 .goals ul > li:nth-child(odd) {
-  background-color: #F3E4F8; /* light purple */
+  background-color: #F7F7F7; /* light gray */
 }
 
 /* BOTTOM NAV */

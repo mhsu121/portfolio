@@ -1,7 +1,7 @@
 /* HEADER */
 header {
   background-image: url("../images/contact-hero-small.jpg");
-  background-color: #E2E2E2; /* light grey */
+  background-color: #0A2139; /* navy */
   height:100vh;
 }
 @media (min-width: 768px) {

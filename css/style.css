@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h1 {
   text-align:center;
-  font-size: 28px;
+  font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: 700;
@@ -75,11 +75,23 @@ h1 {
 }
 h2 {
   font-size: 24px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  font-weight: 700;
+  letter-spacing: 0.07em;
   color: #333333; /* dark gray */
   line-height: normal;
+}
+.title {
+  height: 45px;
+  margin-bottom:20px;
+}
+@media (min-width:768px) {
+  h2 {
+    font-size: 34px;
+  }
+  .title {
+    height: 60px;
+    margin-bottom:30px;
+  }
 }
 h3 {
   font-size: 20px;
@@ -186,18 +198,6 @@ a:hover {
   color: #FFFFFF; /* white */
   text-decoration: none;
 }
-.title {
-  width: 500px;
-  height: 50px;
-  margin-bottom:15px;
-}
-.title:before {
-    content: '';
-    position: absolute;
-    left:500px;
-    border-bottom: 50px solid rgb(0,0,0,0); /* transparent */
-    width: 0;
-}
 
 /* HEADER */
 header {
@@ -243,7 +243,7 @@ header nav ul li {
   font-weight: 300;
 }
 .navlinks > li > a:hover {
-  color: #333333; /* navy */
+  color: #333333; /* dark grey */
   text-decoration: none;
   padding-bottom: 4px;
   border-bottom: 2px solid #86C1AD; /* turquoise */
@@ -275,7 +275,7 @@ header nav ul li {
     bottom: -82vh;
     width: 550px;
     padding: 10px 50px;
-    background-color: rgba(10, 33, 57, 0.7); /* transparent navy */
+    background-color: rgba(10, 33, 57, 0.7); /* transparent dark grey */
   }
 }
 @media (min-width: 992px) {
@@ -327,7 +327,7 @@ header nav ul li {
 }
 .hero-btn:hover {
   background-color: #FFFFFF; /* white */
-  color: #0A2139; /* navy */
+  color: #333333; /* dark grey */
   text-decoration: none;
 }
 

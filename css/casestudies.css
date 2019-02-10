@@ -139,17 +139,6 @@
     width: 1050px;
   }
 }
-main h2 {
-  margin-left:30px;
-  color:#FFFFFF;
-  font-weight:700;
-  padding-top:8px;
-}
-@media (min-width:762px) {
-  main h2 {
-    margin-left:100px;
-  }
-}
 main p {
   text-align:left;
 }
@@ -207,6 +196,10 @@ main img {
   color: #333333; /* dark grey */
   padding: 0;
   margin: 0;
+  text-transform:uppercase;
+  letter-spacing:0.2em;
+  font-weight:400;
+  font-size:24px;
 }
 .bottom-nav-light ul {
   list-style:none;
@@ -235,6 +228,10 @@ main img {
 .bottom-nav-dark h2 {
   padding: 0;
   margin: 0;
+  text-transform:uppercase;
+  letter-spacing:0.2em;
+  font-weight:400;
+  font-size:24px;
 }
 .bottom-nav-dark h1 {
   color: #FFFFFF; /* white */

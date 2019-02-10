@@ -14,11 +14,7 @@ main img {
   box-shadow: 2px 2px 10px #999999;
 }
 .title {
-  background-color: #002661; /* dark blue */
-
-}
-.title:before {
-  border-left: 35px solid #002661; /* dark blue */
+  border-bottom: 3px solid #002661; /* dark blue */
 }
 .bg {
   background-color: #D4D9E0; /* light blue */

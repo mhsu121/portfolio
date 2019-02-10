@@ -8,10 +8,7 @@ main h3, h6 {
   color: #3498DB; /* bright blue */
 }
 .title {
-  background-color: #3498DB; /* bright blue */
-}
-.title:before {
-  border-left: 35px solid #3498DB; /* bright blue */
+  border-bottom: 3px solid #3498DB; /* bright blue */
 }
 .bg {
   background-color: #D8EAF6; /* light blue */

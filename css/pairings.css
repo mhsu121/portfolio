@@ -8,10 +8,7 @@ main h3 {
   color: #8BC25F; /* green */
 }
 .title {
-  background-color: #8BC25F; /* green */
-}
-.title:before {
-  border-left: 35px solid #8BC25F; /* green */
+  border-bottom: 3px solid #8BC25F; /* green */
 }
 .bg {
   background-color: #E5F1DB; /* light green */
