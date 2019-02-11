@@ -13,11 +13,10 @@ header {
 /* FORM */
 main {
   text-align:center;
-  padding-bottom:1em;
   background-color: #E1F0EB; /* light turquoise */
 }
 .form {
-  padding: 2em 0 0.5em;
+  padding: 3em 0 1em;
 }
 input[type=text], input[type=email], textarea[name=message] {
   font-family: "Open Sans";

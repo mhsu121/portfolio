@@ -79,6 +79,7 @@ h2 {
   letter-spacing: 0.07em;
   color: #333333; /* dark gray */
   line-height: normal;
+  margin-top:0;
 }
 .title {
   height: 45px;
@@ -334,6 +335,17 @@ header nav ul li {
 /* MAIN */
 #text {
   max-width: 720px;
+}
+.no-bg, .bg {
+  padding:50px 0;
+}
+.no-bg-last, .bg-last {
+  padding:50px 0 0;
+}
+
+/* RETURN */
+.return {
+  padding-bottom:25px;
 }
 
 /* LAST CALL */
