@@ -10,41 +10,10 @@ main h3 {
 .title {
   border-bottom: 3px solid #8BC25F; /* green */
 }
-.bg {
-  background-color: #E5F1DB; /* light green */
-}
 
-/*OVERVIEW*/
-#pairings-overview {
-  margin-top:30px;
-  background-color: #FFFFFF; /*white*/
-  border-radius: 25px;
-  padding:30px 30px 15px;
-}
-@media (min-width:992px) {
-  #pairings-overview {
-    height:550px;
-  }
-}
-@media (min-width:1200px) {
-  #pairings-overview {
-    height:500px;
-  }
-}
-#pairings-overview h3 {
-  text-align: center;
-}
-
-#pairings-overview ul {
-  list-style:none;
-  padding:0;
-  display: inline;
-  float: none;
-  margin:0;
-}
-#pairings-overview img {
-  height:30px;
-  width:auto;
+/* OVERVIEW */
+.overview i {
+  color: #8BC25F; /* green */
 }
 
 /* SURVEY RESULTS */

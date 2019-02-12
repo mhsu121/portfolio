@@ -337,9 +337,6 @@ header nav ul li {
   max-width: 720px;
 }
 .no-bg, .bg {
-  padding:50px 0;
-}
-.no-bg-last, .bg-last {
   padding:50px 0 0;
 }
 

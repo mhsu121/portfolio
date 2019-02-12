@@ -15,30 +15,8 @@ main h3, h6 {
 }
 
 /*OVERVIEW*/
-#cubby-overview {
-  margin-top:30px;
-  background-color: #FFFFFF; /*white*/
-  border-radius: 25px;
-  padding:30px 30px 15px;
-}
-@media (min-width:992px) {
-  #cubby-overview {
-    height:550px;
-  }
-}
-#cubby-overview h3 {
-  text-align: center;
-}
-#cubby-overview ul {
-  list-style:none;
-  padding:0;
-  display: inline;
-  float: none;
-  margin:0;
-}
-#cubby-overview img {
-  height:30px;
-  width:auto;
+.overview i {
+  color: #3498DB; /* bright blue */
 }
 
 /* COMPETITIVE ANALYSIS */

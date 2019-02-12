@@ -32,14 +32,11 @@ header {
 .title {
   border-bottom: 3px solid #86C1AD; /* turquoise */
 }
-.bg {
-  background-color: #E1F0EB; /* light turquoise */
-}
 
 /* MY CREDENTIALS */
 #credentials {
   margin-top:40px;
-  background-color: #FFFFFF; /* white */
+  background-color: #E1F0EB; /* light turquoise */
   border-radius: 25px;
   padding:10px 30px 20px;
 }
@@ -68,7 +65,7 @@ header {
   margin:0;
 }
 #credentials ul > li {
-  text-indent:-22px;
+  text-indent:-21px;
   margin-left:40px;
   margin-bottom:15px;
 }

@@ -16,42 +16,10 @@ main img {
 .title {
   border-bottom: 3px solid #002661; /* dark blue */
 }
-.bg {
-  background-color: #D4D9E0; /* light blue */
-}
 
 /*OVERVIEW*/
-#craigslist-overview {
-  margin-top:30px;
-  background-color: #FFFFFF; /*white*/
-  border-radius: 25px;
-  padding:30px 30px 15px;
-}
-@media (min-width:992px) {
-  #craigslist-overview {
-    height:450px;
-  }
-}
-@media (min-width:1200px) {
-  #craigslist-overview {
-    height:420px;
-  }
-}
-#craigslist-overview h3 {
-  text-align: center;
-}
-
-#craigslist-overview ul {
-  list-style:none;
-  padding:0;
-  display: inline;
-  float: none;
-  margin:0;
-}
-#craigslist-overview img {
-  height:30px;
-  width:auto;
-  box-shadow: 0 0 0;
+.overview i {
+  color: #002661; /* dark blue */
 }
 
 /* BOTTOM NAV */
