@@ -68,9 +68,6 @@ main h3, h6 {
 @media (min-width: 768px) {
   #cubby-typefaces, #cubby-colorpalette {
     width: 65%;
-    float: right;
-    margin-top:0px;
-    margin-left: 30px;
   }
   #cubby-logooptions {
     width:50%;
