@@ -43,36 +43,46 @@ header {
   text-align:left;
   line-height:1.5;
 }
+@media (min-width: 992px) {
+  .projects p {
+    font-size:14px;
+  }
+}
+@media (min-width: 1200px) {
+  .projects p {
+    font-size:16px;
+  }
+}
 
 /* PORTFOLIO ITEMS */
 .portfolio-item {
   background-repeat: no-repeat;
   background-size: contain;
   width: 360px;
-  padding: 230px 5px 0;
+  padding: 290px 5px 0;
   margin: 0 auto 50px;
   position: relative;
 }
 @media (min-width: 768px) {
   .portfolio-item {
     width: 500px;
-    padding: 310px 30px 0;
+    padding: 390px 30px 0;
   }
 }
 @media (min-width: 992px) {
   .portfolio-item {
     background-size: cover;
-    height: 370px;
-    width: 455px;
-    padding: 10px 30px 0;
+    height: 310px;
+    width: 310px;
+    padding: 5px 20px 0;
     margin: 0 auto;
   }
 }
 @media (min-width: 1200px) {
   .portfolio-item {
-    height: 455px;
-    width: 560px;
-    padding: 20px 40px 0;
+    height: 375px;
+    width: 375px;
+    padding: 5px 25px 0;
   }
 }
 .portfolio-item.pairings {
@@ -82,16 +92,11 @@ header {
 .portfolio-item.cubby {
   background-image: url("../images/cubby.png");
   background-color: #FFFFFF; /* white */
-  margin: 0 auto 40px;
 }
 .portfolio-item.busybus {
   background-image: url("../images/busybus.png");
   background-color: #FFFFFF; /* white */
-}
-.portfolio-item.craigslist {
-  background-image: url("../images/craigslist.png");
-  background-color: #FFFFFF; /* white */
-  margin: 0 auto;
+  margin-bottom:0;
 }
 @media (min-width: 992px) {
   .portfolio-item.pairings {
@@ -99,13 +104,9 @@ header {
   }
   .portfolio-item.cubby {
     background-color: #3498DB; /* bright blue */
-    margin: 0 auto;
   }
   .portfolio-item.busybus {
     background-color: #6C0090; /* purple */
-  }
-  .portfolio-item.craigslist {
-    background-color: #002661; /* dark blue */
   }
 }
 .portfolio-btn {
@@ -129,15 +130,15 @@ header {
   .portfolio-btn {
     width: 215px;
     padding: 15px 30px;
-    font-size: 16px;
   }
 }
 @media (min-width: 992px) {
   .portfolio-btn {
-    width: 190px;
     background-color: transparent;
     border: 2px solid white;
-    padding: 10px 15px;
+    font-size:14px;
+    width: 130px;
+    padding: 5px;
     color: #FFFFFF; /* white */
   }
   .portfolio-btn:hover {
@@ -148,9 +149,9 @@ header {
 }
 @media (min-width: 1200px) {
   .portfolio-btn {
-    width: 230px;
-    padding: 15px 30px;
-    font-size: 16px;
+    font-size:16px;
+    width: 155px;
+    padding: 15px 10px;
   }
 }
 .portfolio-item h2 {
@@ -164,7 +165,7 @@ header {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    bottom: 0px;
+    bottom: -10px;
   }
   .portfolio-item:hover h2 {
     color: #FFFFFF; /* white */
