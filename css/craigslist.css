@@ -10,9 +10,6 @@ main h3 {
 main h3, h6 {
   color: #002661; /* dark blue */
 }
-main img {
-  box-shadow: 2px 2px 10px #999999;
-}
 .title {
   border-bottom: 3px solid #002661; /* dark blue */
 }
@@ -20,6 +17,11 @@ main img {
 /*OVERVIEW*/
 .overview i {
   color: #002661; /* dark blue */
+}
+
+/* IMG BG */
+.img-bg {
+    background-color: #DDDFEC; /* light blue */
 }
 
 /* BOTTOM NAV */

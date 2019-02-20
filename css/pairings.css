@@ -24,8 +24,13 @@ main h3 {
   color: #BADBA0; /* light green */
 }
 
+/* IMG BG */
+.img-bg {
+    background-color: #E5F1DB; /* light green */
+}
+
 /* IMG SIZING */
-@media (min-width: 762px) {
+@media (min-width: 768px) {
   #usertesting-img {
     width: auto;
     margin: 0 30px 30px 0;

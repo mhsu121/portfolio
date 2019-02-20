@@ -112,10 +112,19 @@
 main p {
   text-align:left;
 }
+main h5 {
+  color:#333333; /* dark grey*/
+  font-size:12px;
+  margin-top: 10px;
+  text-align: center;
+  text-transform:none;
+  letter-spacing:normal;
+  font-weight:300;
+}
 main img {
   width: 100%;
   display: block;
-  margin: 30px auto;
+  margin: 30px auto 0;
 }
 
 /* OVERVIEW */
@@ -154,13 +163,13 @@ main img {
 /* SURVEY RESULTS */
 .survey-results {
   border-radius: 50%;
-  width: 216px;
-  height: 216px;
+  width: 217px;
+  height: 217px;
   display: block;
   margin: 30px auto;
   padding: 15px 20px 0;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .survey-results {
     display: inline-block;
     margin: 5px;
@@ -170,16 +179,29 @@ main img {
   text-align: center;
   font-size:28px;
   margin:0;
+  line-height:1.3;
 }
 .survey-results h3 {
   text-align: center;
   font-size:60px;
   margin:0;
+  line-height:1.3;
 }
 .survey-results p {
   text-align:center;
-  font-size:14px;
   margin:0;
+  font-size:14px;
+  line-height:1.5;
+}
+
+/* IMG BG */
+.img-bg {
+  padding: 1px 10px;
+}
+@media (min-width: 768px) {
+  .img-bg {
+    padding: 10px 40px;
+  }
 }
 
 /*RETURN*/
