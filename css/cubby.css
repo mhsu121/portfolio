@@ -10,13 +10,15 @@ main h3, h6 {
 .title {
   border-bottom: 3px solid #3498DB; /* bright blue */
 }
-.bg {
-  background-color: #D8EAF6; /* light blue */
-}
 
 /*OVERVIEW*/
 .overview i {
   color: #3498DB; /* bright blue */
+}
+
+/* IMG BG */
+.img-bg {
+  background-color: #D8EAF6; /* light blue */
 }
 
 /* COMPETITIVE ANALYSIS */
