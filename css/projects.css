@@ -192,7 +192,7 @@ header {
     height:100%;
     display: none;
     z-index:0;
-    background-color: rgba(10,33,57,0.85); /* 85% opacity navy */
+    background-color: rgba(10,33,57,0.9); /* 90% opacity navy */
   }
   .overlay:hover:before {
     display: block;
