@@ -27,12 +27,6 @@ main h3 {
 }
 
 /* IMG SIZING */
-#app-logo {
-  height:20px;
-  width: auto;
-  display:inline;
-  margin:0;
-}
 @media (min-width:768px) {
   #routesy-detail {
     width:80%;

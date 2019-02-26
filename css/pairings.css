@@ -10,6 +10,9 @@ main h3 {
 .title {
   border-bottom: 3px solid #8BC25F; /* green */
 }
+.quote {
+  color: #8BC25F; /* green */
+}
 
 /* OVERVIEW */
 .overview i {
@@ -30,11 +33,17 @@ main h3 {
 }
 
 /* IMG SIZING */
+#pairings-userflow2 {
+  padding:10px;
+  background-color: #FFFFFF; /* white */
+}
+#pairings-sitemap {
+  padding:15px;
+  background-color: #FFFFFF; /* white */
+}
 @media (min-width: 768px) {
-  #usertesting-img {
+  #pairings-usertesting {
     width: auto;
-    margin: 0 30px 30px 0;
-    float:left;
   }
 }
 

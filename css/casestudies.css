@@ -204,6 +204,14 @@ main img {
   }
 }
 
+/* APP LOGOS */
+#app-logo {
+  height:20px;
+  width: auto;
+  display:inline;
+  margin:0;
+}
+
 /*RETURN*/
 .return {
   padding-bottom:25px;
