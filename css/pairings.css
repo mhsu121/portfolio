@@ -41,6 +41,10 @@ main h3 {
   padding:15px;
   background-color: #FFFFFF; /* white */
 }
+#pairings-preferencetest {
+  padding:15px;
+  background-color: #FFFFFF; /* white */
+}
 @media (min-width: 768px) {
   #pairings-usertesting {
     width: auto;
