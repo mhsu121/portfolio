@@ -75,29 +75,18 @@ header {
     padding: 5px 25px 0;
   }
 }
-.portfolio-item.pairings {
-  background-image: url("../images/pairings.png");
+.portfolio-item.filters {
+  background-image: url("../images/fad-filters.png");
   background-color: #FFFFFF; /* white */
 }
-.portfolio-item.cubby {
-  background-image: url("../images/cubby.png");
+.portfolio-item.scheduling {
+  background-image: url("../images/appointment-scheduling.png");
   background-color: #FFFFFF; /* white */
 }
-.portfolio-item.busybus {
-  background-image: url("../images/busybus.png");
+.portfolio-item.covid {
+  background-image: url("../images/covid-resource-hub.png");
   background-color: #FFFFFF; /* white */
   margin-bottom:0;
-}
-@media (min-width: 992px) {
-  .portfolio-item.pairings {
-    background-color: #8BC25F; /* green */
-  }
-  .portfolio-item.cubby {
-    background-color: #3498DB; /* bright blue */
-  }
-  .portfolio-item.busybus {
-    background-color: #6C0090; /* purple */
-  }
 }
 .portfolio-btn {
   background-color: #86C1AD; /* turquoise */
