@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Pairings | Michelle Hsu</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/pairings.css">
+  <link rel="stylesheet" href="css/casestudies.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130765084-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130765084-1');
+  </script>
+</head>
+
+<body>
+
+<header id="top">
+  <div class="top-header">
+    <nav class="container">
+    <!-- logo -->
+        <div class="one-half">
+          <a href="index.html" class="logo">Michelle<b class="last-name">Hsu</b></a>
+        </div>
+      </nav>
+    </div>
+  <!-- hero -->
+  <section class="hero-light">
+    <div class="container">
+      <h1>Find a Doctor Filters</h1>
+      <h5>USER RESEARCH | UX/UI DESIGN</h5>
+      <p><a href="https://projects.invisionapp.com/share/5JOD5VOHZ62#/screens" target="_blank" class="btn-light"><img src="images/invision.png" alt="invision" id="icon"/>&nbsp;&nbsp;View prototype</a></p>
+      <h6><a href="#background">Click or scroll to view case study&nbsp;&nbsp;<i class="fas fa-angle-double-down"></i></a></h6>
+      <img src="images/pairings-hero.png" alt="pairings-hero" id="hero-img"/>
+    </div>
+  </section>
+</header>
+
+<!-- case study -->
+<main role="main">
+<!-- Overview -->
+  <section class="no-bg" id="background">
+    <div class="container" id="text">
+      <div class="title">
+        <h2>Overview</h2>
+      </div>
+      <div class="overview">
+        <ul>
+          <li><i class="fas fa-info"></i><b>Background:</b> <a href="https://projects.invisionapp.com/share/5JOD5VOHZ62#/screens" target="_blank">Pairings</a> is a web-based cooking application that allows users to search for recipes based on the ingredients they already have</li>
+          <li><i class="far fa-clock"></i><b>Duration:</b> April 2018 - September 2018 (6 months)</li>
+          <li><i class="fas fa-user"></i><b>My Role:</b> Research, Ideation, Information Architecture, Branding, User Experience, User Interface</li>
+          <li><i class="fas fa-pencil-alt"></i><b>Tools:</b><img src="images/sketch.svg" alt="Sketch App"><img src="images/invision-full.png" alt="InVision"><img src="images/usertesting.png" alt="UserTesting.com"><img src="images/usabilityhub.png" alt="UsabilityHub"><img src="images/balsamiq.png" alt="Balsamiq"></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+<!-- research & concept -->
+  <section class="no-bg">
+    <div class="container" id="text">
+      <div class="title">
+        <h2>Research & concept</h2>
+      </div>
+      <h3>Competitive analysis</h3>
+      <p>The cooking application market is extremely fragmented with many players, such as&nbsp;&nbsp;<a href="https://www.yummly.com/" target="_blank"><img src="images/yummly.png" alt="Yummly" id="app-logo" /></a>, <a href="https://www.bigoven.com/" target="_blank"><img src="images/bigoven.png" alt="BigOven" id="app-logo" /></a>&nbsp;, and <a href="https://www.paprikaapp.com/" target="_blank"><img src="images/paprika.png" alt="Paprika" id="app-logo" />&nbsp;Paprika</a>. In such a saturated market, I knew that my design needed to <b>solve a specific user problem</b> and that the interface needed to be <b>clean and easy-to-use for repeat users</b>.
+      <p>I had originally intended to create a broader cooking application with multiple features, but based on my research, decided to <b>narrow my focus to one main user story: how users would keep track of their current ingredients and search for recipes</b>.</p>
+      <h3>User research</h3>
+      <p>Based on a survey of 33 potential users, I discovered that:</p>
+      <div class="survey-results">
+        <h6><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;<i class="fas fa-laptop"></i></h6>
+        <h3>100%</h3>
+        <p>use <b>multiple devices</b> to search for and access recipes</p>
+      </div>
+      <div class="survey-results">
+        <h6><i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<i class="fab fa-twitter-square"></i></h6>
+        <h3>~65%</h3>
+        <p>use <b>social media</b> when signing up for accounts on other sites</p>
+      </div>
+      <div class="survey-results">
+        <h6><i class="fas fa-user"></i>&nbsp;&nbsp;<i class="fas fa-city"></i></h6>
+        <h3>Top 3</h3>
+        <p>recipe search criteria are <b>cuisine, cook time, and # of ingredients</b></p>
+      </div>
+      <p>This meant that my design would need to incorporate the following:</p>
+        <ul>
+          <li>A <b>responsive web solution</b>, as opposed to a mobile application</li>
+          <li><b>Social sign-on</b> capabilities</li>
+          <li>Options to <b>filter recipes</b> by cuisine, cook time, and number of ingredients</li>
+        </ul>
+      <h3>User stories, flows, & site map</h3>
+      <p>Based on the refined concept, I created user stories, user flows, and a site map to use as a foundation for my design.</p>
+      <div class="img-bg">
+        <img src="images/pairings-userstories.png" alt="pairings-userstories" id="pairings-userstories"/>
+        <h5>New & returning user stories</h5>
+        <img src="images/pairings-userflow2.png" alt="pairings-userflow2" id="pairings-userflow2"/>
+        <h5>Sample user flow</h5>
+        <img src="images/pairings-sitemap.png" alt="pairings-sitemap" id="pairings-sitemap"/>
+        <h5>Site map</h5>
+      </div>
+    </div>
+  </section>
+<!-- Wireframing & testing -->
+  <section class="no-bg">
+    <div class="container" id="text">
+      <div class="title">
+        <h2>Wireframing & testing</h2>
+      </div>
+      <h3>Sketching, wireframing, & prototyping</h3>
+      <p>I put pen to paper for some inspiration, and then translated those sketches into Sketch wireframes and a working prototype for an initial round of testing.</p>
+      <div class="img-bg">
+        <img src="images/pairings-hand-wireframes.png" alt="pairings-hand-wireframes" id="pairings-hand-wireframes"/>
+        <h5>Preliminary sketches</h5>
+        <img src="images/pairings-lofi-wireframes.png" alt="pairings-lofi-wireframes" id="pairings-lofi-wireframes"/>
+        <h5>Select wireframes</h5>
+        <img src="images/pairings-prototype-bw.png" alt="pairings-prototype-bw" id="pairings-prototype-bw"/>
+        <h5>Invision prototype</h5>
+      </div>
+      <h3>User testing</h3>
+      <p>I tested my prototype with 3 users through <a href="https://www.usertesting.com" target="_blank">UserTesting.com</a>. Some helpful feedback that I received:</p>
+      <div class="img-bg">
+        <img src="images/pairings-quotes.png" alt="pairings-user-feedback">
+        <h5>User feedback</h5>
+      </div>
+      <p><a href="https://www.usertesting.com/r/kT6-hQxYsqUbyKi22ARz" target="_blank">Click here</a> to view full recordings of the test results.</a></p>
+      <p>Based on the user feedback, I knew I needed to incorporate the following changes into my next iteration:</p>
+      <ul>
+        <li>Updating the homepage design to have <b>clearer indications of product features</b></li>
+        <li>Adding <b>more dietary preference options</b>, such as gluten-free and paleo</li>
+        <li>Making sure there are a plenty of <b>colorful photos of food items</b> throughout the site</li>
+      </ul>
+      <p>I also conducted an <b>additional test to see if the product name was resonating</b> with potential users.</p>
+      <div class="img-bg">
+        <img src="images/pairings-usertesting.png" alt="pairings-usertesting" id="pairings-usertesting"/>
+        <h5>Branding test</h5>
+      </div>
+      <p>There were mixed responses from users, ranging from <i>"dating app for foodies"</i> to wine pairings to pairing ingredients for menu items. Wine was actually only mentioned 2 out of 13 times, which was less than what I expected.</p>
+      <p>While the <b>results were inconclusive at best, I took that as a result in itself</b>—I decided to run with the name Pairings, keeping in mind that the product would need <b>good framing and an introductory explanation upfront</b>.</p>
+    </div>
+  </section>
+<!-- Initial mockups -->
+  <section class="no-bg">
+    <div class="container" id="text">
+      <div class="title">
+        <h2>Initial mockups</h2>
+      </div>
+      <p>I created high-fidelity mockups of all pages in Sketch to test with users.</p>
+      <h3>Onboarding flow</h3>
+      <div class="img-bg">
+        <img src="images/pairings-homepage-v1.png" alt="pairings-initial-homepage"/>
+        <h5>Homepage</h5>
+        <img src="images/pairings-signup.png" alt="pairings-signup"/>
+        <h5>Sign up page</h5>
+        <img src="images/pairings-login.png" alt="pairings-login"/>
+        <h5>Log in page</h5>
+      </div>
+      <p>Feedback I received on the onboarding flow:</p>
+      <ul>
+        <li>Homepage <b>sections could be more broken up</b>, and <b>adding a third pricing tier</b> would make the design look more balanced and entice users to select a paid option</li>
+        <li>Users would like to see an <b>additional step in the sign in process where they can select their dietary preferences</b></p>
+      </ul>
+      <h3>Pantry flow</h3>
+      <div class="img-bg">
+        <img src="images/pairings-pantry.png" alt="pairings-pantry"/>
+        <h5>User pantry detail</h5>
+        <img src="images/pairings-additem-v1.png" alt="pairings-additem"/>
+        <h5>Add item screen</h5>
+      </div>
+      <p>Feedback I received on the pantry flow:</p>
+      <ul>
+        <li><b>Item images are too close together</b> and there is <b>not enough contrast</b> between add and subtract buttons and food pictures</li>
+        <li>Users would like to be able to <b>toggle to a list view for adding items</b>, as so many pictures can be overwhelming</p>
+      </ul>
+      <p>I also conducted an <b>preference test</b> on the placement of the pantry detail section to see if users prefered the items to <b>A) appear below all pantry categories</b> or <b>B) to slide out under the selected category</b>:</p>
+      <div class="img-bg">
+        <img src="images/pairings-pantrytest.png" alt="pairings-pantrytest"/>
+        <h5>Pantry detail preference test</h5>
+        <img src="images/pairings-pantryflow-testresults.png" alt="pairings-pantryflow-testresults" id="pairings-preferencetest"/>
+        <h5>Test results</h5>
+      </div>
+      <p>~65% of users preferred the items to appear below all pantry categories, so I decided to stick with my original design.</b>
+    </div>
+  </section>
+<!-- final design -->
+  <section class="no-bg">
+    <div class="container" id="text">
+      <div class="title">
+        <h2>Final design</h2>
+      </div>
+      <h3>Homepage</h3>
+      <div class="img-bg">
+        <img src="images/pairings-homepage-final.png" alt="pairings-homepage-final"/>
+        <h5>Final homepage design</h5>
+      </div>
+      <p>The final homepage design has <b>distinct sections</b> and more <b>consistant image sizing</b> across the page. I also added a <b>third pricing tier</b> to balance the design and entice users to sign up for a paid option.</p>
+      <h3>Onboarding flow</h3>
+      <div class="img-bg">
+        <img src="images/pairings-recipeprofile.png" alt="pairings-recipeprofile"/>
+        <h5>Expanded onboarding flow</h5>
+      </div>
+      <p>I added in a page where <b>users can select their recipe preferences as the second step of the sign up process</b>. That way, once users start adding items to their pantry, their recipes will automatically filter according to their preferences instead of having to apply separate filters each time.</p>
+      <h3>Pantry flow</h3>
+      <div class="img-bg">
+        <img src="images/pairings-pantryflow.png" alt="pairings-pantryflow"/>
+        <h5>Final update pantry design</h5>
+        <img src="images/pairings-additem-list.png" alt="pairings-additem-list"/>
+        <h5>List view option for adding items</h5>
+      </div>
+      <p>In the pantry flow, item <b>image sizes were increased and more space was added in between items</b> to allow for better scannability. I also included an option for users to <b>toggle between icon or list view when adding items</b> to allow for more flexibility and accessability. Finally, the phrase 'Add Items' was changed to 'Update Pantry' for more <b>consistency</b>.</p>
+      <p><a href="https://projects.invisionapp.com/share/5JOD5VOHZ62#/screens" target="_blank">Click here</a> to view a working prototype of Pairings!</p>
+    </div>
+  </section>
+<!-- conclusion -->
+  <section class="no-bg">
+    <div class="container" id="text">
+      <div class="title">
+        <h2>Conclusion</h2>
+      </div>
+      <p>This was a fun and challenging project to design. There were many  elements that I had to think through and test that I hadn’t anticipated, like the flows for updating ingredients and sorting by pantry category. While I tried to design in a way to minimize the learning curve for users, it’s a fairly complex product to use, and one that probably requires some level of initial learning.</p>
+      <p>Through this process, I realized that having well-organized <b>information architecture is KEY to the success of a design</b>, especially when working with a product that has large amounts of data that can be grouped in different ways. It was challenging but interesting to think about this aspect—what categories to show and how to organize the information.</p>
+    </div>
+    <div class="return">
+      <h6><a href="#top">Return to top&nbsp;&nbsp;<i class="fas fa-angle-double-up"></i></a></h6>
+    </div>
+  </section>
+<!-- bottom nav -->
+  <section class="bottom-nav-light">
+    <div class="container">
+      <h1>Browse other projects</h1>
+      <h2>
+        <ul>
+          <li><a href="appointment-scheduling.html">Appointment Scheduling</a></li> |
+          <li><a href="covid-19-resource-hub.html">COVID-19 Resource Hub + Newsroom</a></li>
+        </ul>
+      </h2>
+      <a href="index.html" class="btn-light">Return to homepage</a>
+    </div>
+  </section>
+</main>
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="one-half copyright">
+      <p>&copy; <strong>2020</strong> &bull; designed & developed by michelle hsu</p>
+    </div>
+    <div class="one-half footer-links">
+      <ul>
+        <li><a href="https://linkedin.com/in/michellethsu/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/mhsu121" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.instagram.com/mhsu121/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="mailto:michelletahsu@gmail.com"><i class="fas fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+
+</body>
+
+</html>
