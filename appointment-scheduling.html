@@ -70,43 +70,35 @@
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>Research & concept</h2>
+        <h2>Research + concept</h2>
       </div>
       <h3>Competitive analysis</h3>
-      <p>The cloud-based storage application market is <b>dominated by large incumbent players</b> such as <a href="https://www.box.com" target="_blank">&nbsp;<img src="images/box.png" alt="Box" id="app-logo" />&nbsp;</a>, <a href="https://www.drive.google.com" target="_blank">&nbsp;<img src="images/googledrive.png" alt="Google Drive" id="app-logo" />&nbsp;</a>, and <a href="https://www.dropbox.com" target="_blank">&nbsp;<img src="images/dropbox.png" alt="DropBox" id="app-logo" />&nbsp;</a>. In such a market where the concept and features are pretty standard, I knew it was important for Cubby to present a <b>targeted design for a specific audience</b>.</p>
-      <h3>User research</h3>
-      <p>I conducted a survey in order to better understand potential Cubby users and how to best meet their needs.</p>
-      <div class="survey-results">
-        <h6><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;<i class="fas fa-laptop"></i></h6>
-        <h3>100%</h3>
-        <p>use <b>multiple devices</b> to access and save digital content</p>
-      </div>
-      <div class="survey-results">
-        <h6><i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<i class="fab fa-twitter-square"></i></h6>
-        <h3>~80%</h3>
-        <p>use <b>social media</b> when signing up for accounts on other sites</p>
-      </div>
-      <div class="survey-results">
-        <h6><i class="fas fa-user"></i>&nbsp;&nbsp;<i class="fas fa-city"></i></h6>
-        <h3>18-34</h3>
-        <p>represents the<br><b>average age</b> of survey respondents</p>
-      </div>
-      <p>Based on these findings, Cubby needed to incorporate the following:</p>
+      <p>As part of the competive analysis, I wanted to look beyond the typical healthcare systems to see what could be learned from their experiences. I bucketed competitors into 3 categories and documented each of their online scheduling experiences:</p>
         <ul>
-          <li><b>Responsive</b> design for viewing across multiple screen sizes</li>
-          <li><b>Social sign-on</b> capabilities</li>
-          <li>A <b>fun, fresh take</b> in terms of branding and visual design</li>
+          <li>Other healthcare systems, e.g. Kaiser Permanente, Sutter Health, Banner Health, etc.</li>
+          <li>Modern healthcare tech companies, e.g. One Medical, ZocDoc</li>
+          <li>Non-healthcare industry competitors, e.g. fitness companies like ClassPass, restaurant reservation services like Resy, etc.</li>
         </ul>
-      <h3>User stories, flows, & site map</h3>
-      <p>Based on the refined concept, I created user stories, user flows, and a site map to use as a foundation for my design.</p>
-      <div class="img-bg">
-        <img src="images/cubby-userstories.png" alt="cubby-userstories" id="cubby-userstories"/>
-        <h5>User stories</h5>
-        <img src="images/cubby-userflows.png" alt="cubby-userflows" id="cubby-userflows"/>
-        <h5>Sample user flow (dashboard)</h5>
-        <img src="images/cubby-sitemap.png" alt="cubby-sitemap" id="cubby-sitemap"/>
-        <h5>Initial site map</h5>
+<h3>User research</h3>
+      <p>Our team conducted a <b>3 part online scheduling benchmark study</b>, including a competitive benchmark survey, a consumer survey, and a clinic staff survey. We presented these findings to business stakeholders, and followed up with clinic staff interviews. Some of our key findings included:</p>
+      <div class="survey-results">
+        <h3>60%</h3>
+        <p>of users prefer online scheduling methods<br><br><br></p>
       </div>
+      <div class="survey-results">
+        <h3>40%</h3>
+        <p>are likely to <b>switch healthcare providers</b> if online scheduling is not available</p>
+      </div>
+      <div class="survey-results">
+        <h3>80%</h3>
+        <p>of clinic staff frequently have to reschedule appointments made online by patients</p>
+      </div>
+      <p>Based on these findings, our team recommended:</p>
+        <ul>
+          <li>Creating a <b>guided scheduling flow</b></li>
+          <li><b>Improving clarity</b> of the patient and visit information forms</li>
+          <li>Focusing on <b>task accomplishment</b></li>
+        </ul>
     </div>
   </section>
   <!-- Initial Design -->
@@ -116,70 +108,38 @@
         <h2>Initial design</h2>
       </div>
       <h3>Wireframes</h3>
-      <p>Using myBalsamiq and Illustrator, I created wireframes for the Cubby homepage and dashboard</p>
-      <div class="img-bg">
-        <img src="images/cubby-hifi-wireframes.png" alt="cubby-hifi-wireframes" id="cubby-hifi-wireframes"/>
-        <h5>Homepage wireframe options</h5>
-        <img src="images/cubby-dashboard.jpg" alt="cubby-dashboard" id="cubby-dashboard"/>
-        <h5>Dashboard wireframe</h5>
-      </div>
-      <h3>Testing and Iteration</h3>
-      <p>I created a prototype in InVision using the high-fidelity wireframes I mocked up in Illustrator. I used UserTesting to test my prototype, as well as conducting in-person usability tests on three potential users. Two important pieces of feedback that I incorporated into the final design were:</p>
+      <p>Using Figma, I created two wireframe options for adding a guided approach to the Online Scheduling product:</p>
       <ul>
-        <li>Moving the account settings button to the top right to make it easier and more intuitive for users to find</li>
-        <li>Moving the add button to the left to make it more prominent and the first thing the user sees as they read from left to right</li>
+        <li>Option 1 was a contained scheduling widget on the doctor profile page with multiple steps</li>
+        <li>Option 2 launched a new page with step-by-step questions</li>
       </ul>
-      <p>I also used Usability Hub to create a preference test for the placement of the Add button on the dashboard. However, as the results were inconclusive, I decided to stick to my original design in Option 2.</p>
       <div class="img-bg">
-        <img src="images/cubby-preferencetest.png" alt="cubby-preferencetest" id="cubby-preferencetest"/>
-        <h5>Preference test results</h5>
+        <img src="images/scheduling-option-1.png" alt="scheduling-option-1" id="scheduling-option-1"/>
+        <h5>Option 1</h5>
+        <img src="images/scheduling-option-2.png" alt="scheduling-option-2" id="scheduling-option-2"/>
+        <h5>Option 2</h5>
       </div>
+      <h3>Prototyping and Testing</h3>
+      <p>I created a prototype in Figma using the two wireframes I mocked up and tested them in Userzoom. We received 150 responses for the desktop preference test and 115 responses for the mobile responsive preference test.</p>
+      <p>In our test, we found that users were able to complete their task of scheduling an appointment <b>5-6 sec</b> faster using Option 2 instead of Option 1. Some of the feedback we received:</p>
+      <ul>
+        <li>“There was a lot of information on that page which could get quite overwhelming while I’m trying to schedule an appointment”</li>
+        <li>“The scheduling area kind of blended in too much with the rest of the information on the page”</li>
+        <li>“It’s easier not looking at multiple questions at a time.”</li>
+      </ul>
     </div>
   </section>
   <!-- Final Design -->
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>Final design</h2>
+        <h2>High-fidelity mockups</h2>
       </div>
-      <h3>Homepage</h3>
       <div class="img-bg">
-        <img src="images/cubby-homepage.png" alt="cubby-homepage" id="cubby-homepage"/>
-        <h5>Final homepage design</h5>
+        <img src="images/guided-scheduling-flow.png" alt="guided-scheduling-flow" id="guided-scheduling-flow"/>
+        <h5>Guided scheduling flow</h5>
       </div>
-      <h3>Dashboard and Account Settings</h3>
-      <div class="img-bg">
-        <img src="images/cubby-dashboard.png" alt="cubby-dashboard" id="cubby-dashboard"/>
-        <h5>Final dashboard design</h5>
-      </div>
-      <h3>Content Detail</h3>
-      <div class="img-bg">
-        <img src="images/cubby-content.png" alt="cubby-content" id="cubby-content"/>
-        <h5>Final content detail designs</h5>
-      </div>
-    </div>
-  </section>
-  <!-- Development -->
-  <section class="no-bg">
-    <div class="container" id="text">
-      <div class="title">
-        <h2>Development</h2>
-      </div>
-      <p>In the development phase, I focused on building <b>a responsive site using mobile-first principles</b>. I included a hamburger icon and sliding left navigation for mobile and tablet devices through the use of media queries. For the interactive drop-down menus, I used a jQuery plugin (<a href="https://github.com/gilbitron/Dropit" target="_blank">Dropit</a>). Click here to view the live <a href="https://mhsu121.github.io/cubby/" target="_blank">homepage</a> and <a href="https://mhsu121.github.io/cubby/dashboard.html" target="_blank">dashboard</a> that I developed for Cubby!</p>
-      <div class="img-bg">
-        <img src="images/cubby-slidingnav.png" alt="cubby-slidingnav" id="cubby-slidingnav"/>
-        <h5>Responsive sliding navigation bar on mobile</h5>
-      </div>
-    </div>
-  </section>
-  <!-- Conclusion -->
-  <section class="no-bg">
-    <div class="container" id="text">
-      <div class="title">
-        <h2>Conclusion</h2>
-      </div>
-      <p>Throughout this project, I really enjoyed learning and executing each step of the design process. It's amazing how much work goes in from start to finish and how much iteration the product goes through throughout the process.</p>
-      <p>The biggest takeaway for me from this project was during the color scheme and typography selection process—learning to keep in mind that I am designing for a user base, not myself, and that it doesn’t always matter what my personal preferences are.</p>
+      <p>The finalized design is a step by step process that makes it easy for the user to select the right appointment type, whether they are using a computer or their mobile device. It is fast, easy-to-use, and users can keep track of their progress through the flow with the progress indicator.</p>
     </div>
     <div class="return">
       <h6><a href="#top">Return to top&nbsp;&nbsp;<i class="fas fa-angle-double-up"></i></a></h6>
