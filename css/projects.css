@@ -120,9 +120,9 @@ header {
     color: #FFFFFF; /* white */
   }
   .portfolio-btn:hover {
-    background-color: #86C1AD; /* turquoise */
-    border: 2px solid #86C1AD; /* turquoise */
-    color: #FFFFFF; /* white */
+    background-color: #FFFFFF; /* white */
+    border: 2px solid #FFFFFF; /* white */
+    color: #0A2139; /* navy */
   }
 }
 .portfolio-item h2 {

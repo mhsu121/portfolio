@@ -1,4 +1,7 @@
 /* HERO - LIGHT */
+header {
+  background-image: linear-gradient(-180deg, #86C1AD 1%, #FFFFFF 99%); /* turquoise gradient */
+}
 .hero-light {
   display:block;
   position: relative;
@@ -31,8 +34,8 @@
   font-weight: 300;
 }
 .hero-light h6 > a:hover {
-  color: #FFFFFF; /* white */
-  text-decoration: none;
+  color: #333333; /* dark grey */
+  text-decoration: underline;
 }
 #icon {
   width: 16px;
@@ -49,68 +52,14 @@
   }
 }
 
-/* HERO - DARK */
-.hero-dark {
-  display:block;
-  position: relative;
-  padding: 1em 0 0;
-}
-.hero-dark h1, h5, h6, p {
-  text-align:center;
-}
-.hero-dark h1 {
-  color:#FFFFFF; /* white */
-}
-@media (min-width:768px) {
-  .hero-dark h1 {
-    font-size:36px;
-  }
-}
-@media (min-width:992px) {
-  .hero-dark h1 {
-    font-size:40px;
-  }
-}
-@media (min-width:1200px) {
-  .hero-dark h1 {
-    font-size:42px;
-  }
-}
-.hero-dark h5 {
-  color: #FFFFFF; /* white */
-  text-align:center;
-}
-.hero-dark h6 > a {
-  color: #FFFFFF; /* dark grey */
-  font-weight: 300;
-}
-.hero-dark h6 > a:hover {
-  color: #86C1AD; /* turquoise */
-  text-decoration: none;
-}
-#icon {
-  width: 16px;
-}
-#hero-img {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
-  position:relative;
-}
-@media (min-width: 768px) {
-  #hero-img {
-    width: 720px;
-  }
-}
-
 /* CASE STUDY */
 @media (min-width: 1200px) {
   main .container {
     width: 1050px;
   }
 }
-main p {
-  text-align:left;
+main h3 {
+  color: #86C1AD; /* turquoise */
 }
 main h5 {
   color:#333333; /* dark grey*/
@@ -120,6 +69,15 @@ main h5 {
   text-transform:none;
   letter-spacing:normal;
   font-weight:300;
+}
+.title {
+  border-bottom: 3px solid #86C1AD; /* turquoise */
+}
+.quote {
+  color: #86C1AD; /* turquoise */
+}
+main p {
+  text-align:left;
 }
 main img {
   width: 100%;
@@ -141,6 +99,7 @@ main img {
   margin-top:30px;
 }
 .overview i {
+  color: #86C1AD; /* turquoise */
   font-size:20px;
   margin-right:20px;
 }
@@ -162,6 +121,7 @@ main img {
 
 /* SURVEY RESULTS */
 .survey-results {
+  background-color: #f5f5f5; /* light gray */
   border-radius: 50%;
   width: 217px;
   height: 217px;
@@ -176,6 +136,7 @@ main img {
   }
 }
 .survey-results h6 {
+  color: #86C1AD; /* turquoise */
   text-align: center;
   font-size:28px;
   margin:0;
@@ -196,11 +157,30 @@ main img {
 
 /* IMG BG */
 .img-bg {
+  background-color: #F5f5f5; /* light gray */
   padding: 1px 10px;
 }
 @media (min-width: 768px) {
   .img-bg {
     padding: 10px 40px;
+  }
+}
+/* IMG SIZING */
+#pairings-userflow2 {
+  padding:10px;
+  background-color: #FFFFFF; /* white */
+}
+#pairings-sitemap {
+  padding:15px;
+  background-color: #FFFFFF; /* white */
+}
+#pairings-preferencetest {
+  padding:15px;
+  background-color: #FFFFFF; /* white */
+}
+@media (min-width: 768px) {
+  #pairings-usertesting {
+    width: auto;
   }
 }
 
@@ -217,13 +197,13 @@ main img {
   padding-bottom:25px;
 }
 
-/* BOTTOM NAV - LIGHT */
-.bottom-nav-light {
+/* BOTTOM NAV */
+.bottom-nav {
+  background-color: #0A2139; /*navy */
   padding: 1.5em 0 3em;
   text-align: center;
 }
-.bottom-nav-light h2 {
-  color: #333333; /* dark grey */
+.bottom-nav h2 {
   padding: 0;
   margin: 0;
   text-transform:uppercase;
@@ -231,57 +211,25 @@ main img {
   font-weight:400;
   font-size:24px;
 }
-.bottom-nav-light ul {
-  list-style:none;
-  padding:0;
-  margin-bottom:35px;
-}
-.bottom-nav-light ul > li {
-  font-size:24px;
-  display: inline-block;
-  margin: 0;
-}
-.bottom-nav-light ul > li > a {
-  color: #333333; /* dark grey */
-  font-weight:400;
-}
-.bottom-nav-light ul > li > a:hover {
-  color: #FFFFFF; /* white */
-  text-decoration: none;
-}
-
-/* BOTTOM NAV - DARK */
-.bottom-nav-dark {
-  padding: 1.5em 0 3em;
-  text-align: center;
-}
-.bottom-nav-dark h2 {
-  padding: 0;
-  margin: 0;
-  text-transform:uppercase;
-  letter-spacing:0.2em;
-  font-weight:400;
-  font-size:24px;
-}
-.bottom-nav-dark h1 {
+.bottom-nav h1 {
   color: #FFFFFF; /* white */
 }
-.bottom-nav-dark ul {
+.bottom-nav ul {
   list-style:none;
   padding:0;
   margin-bottom:35px;
   color: #FFFFFF; /* white */
 }
-.bottom-nav-dark ul > li {
+.bottom-nav ul > li {
   font-size:24px;
   display: inline-block;
   margin: 0;
 }
-.bottom-nav-dark ul > li > a {
-  color: #FFFFFF; /* white */
-  font-weight:400;
-}
-.bottom-nav-dark ul > li > a:hover {
+.bottom-nav ul > li > a {
   color: #86C1AD; /* turquoise */
+  font-weight:400;
+}
+.bottom-nav ul > li > a:hover {
+  color: #FFFFFF; /* white */
   text-decoration: none;
 }
