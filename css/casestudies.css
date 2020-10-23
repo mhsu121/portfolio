@@ -140,7 +140,13 @@ main img {
 @media (min-width: 768px) {
   .survey-results {
     display: inline-block;
-    margin: 5px;
+    margin: 5px 8px;
+  }
+}
+@media (min-width: 992px) {
+  .survey-results {
+    display: inline-block;
+    margin: 5px 18px;
   }
 }
 .survey-results h6 {
@@ -174,22 +180,8 @@ main img {
   }
 }
 /* IMG SIZING */
-#pairings-userflow2 {
-  padding:10px;
-  background-color: #FFFFFF; /* white */
-}
-#pairings-sitemap {
-  padding:15px;
-  background-color: #FFFFFF; /* white */
-}
-#pairings-preferencetest {
-  padding:15px;
-  background-color: #FFFFFF; /* white */
-}
-@media (min-width: 768px) {
-  #pairings-usertesting {
-    width: auto;
-  }
+#mobile-filters {
+  width:280px;
 }
 
 /* APP LOGOS */
