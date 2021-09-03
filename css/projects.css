@@ -88,6 +88,11 @@ header {
   background-color: #FFFFFF; /* white */
   margin-bottom:0;
 }
+.portfolio-item.welcome {
+  background-image: url("../images/welcome-screen-redesign.png");
+  background-color: #FFFFFF; /* white */
+  margin-bottom:0;
+}
 .portfolio-btn {
   background-color: #86C1AD; /* turquoise */
   width: 170px;
