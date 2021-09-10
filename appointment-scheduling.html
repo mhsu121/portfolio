@@ -81,7 +81,7 @@
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>01. Objectives + design process</h2>
+        <h2>00. Objectives + design process</h2>
       </div>
       <h3>Goals + success metrics</h3>
       <p>Before beginning work, the first step I took was to gain shared understanding with stakeholders and product management of the <b>business goals</b>:</p>
@@ -93,21 +93,19 @@
       <p>Based on our goals, I worked with the product manager to define these <b>success metrics</b>:</p>
         <ul>
           <li>📈&nbsp;Increase in # of scheduled appointments</li>
+          <li>📈&nbsp;Increase in CSAT scores</li>
           <li>📉&nbsp;Decrease in # of drop-offs during scheduling process</li>
           <li>📈&nbsp;Increase in conversion rate*</li>
         </ul>
       <h3>Design process</h3>
       <p>After identifying success metrics, I laid out a project plan for the <b>design and research activities</b> that would take place over the next 3 months. I broke the work up into phases with corresponding user stories and defined timeframes. This plan would serve as a guiding framework for the upcoming design process, but was intended to be flexible to adjust as needed.</p>
-      <div class="img-bg">
-        <img src="images/scheduling-project-plan.png" alt="scheduling-project-plan"/>
-        <h5>Project plan</h5>
-      </div>
+      <img src="images/guided-flow-design-process.png" alt="guided-flow-design-process"/>
   </section>
 <!-- Research & Concept -->
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>02. Research + concept</h2>
+        <h2>01. Research + concept</h2>
       </div>
 <h3>User research</h3>
       <p>Our team began by launching 2 user surveys: one with patients and one with clinic staff. We also conducted 20 follow-up interviews with receptionists, call center reps, and clinic operation supervisors/managers. Some of our key findings included:</p>
@@ -123,13 +121,6 @@
         <h3>80%</h3>
         <p>of clinic staff regularly reschedule appointments made online by patients</p>
       </div>
-      <p>Based on these findings, our team recommended:</p>
-        <ul>
-          <li>Creating a <b>guided scheduling flow</b></li>
-          <li><b>Renaming</b> appointment types and <b>adding descriptions</b> to improve understanding</li>
-          <li><b>Improving clarity</b> of the patient and visit information forms</li>
-          <li>Focusing on <b>task accomplishment</b></li>
-        </ul>
     <h3>Competitive analysis</h3>
     <p>To add another perspective to our user research, I looked at 3 categories of competitors to see what could be learned from each of their online scheduling experiences:</p>
       <ul>
@@ -137,11 +128,14 @@
         <li>Modern healthcare tech companies, e.g. One Medical, ZocDoc</li>
         <li>Non-healthcare industry competitors, e.g. fitness companies like ClassPass, restaurant reservation services like Resy, etc.</li>
       </ul>
-    <p>I discovered similar themes, and sought to incorporate these into my designs:</p>
+    <h3>Concept and approach</h3>
+    <p>Based on the findings from user and competitive research, I wanted to focus on the following ideas in my design:</p>
       <ul>
-        <li><b>Guided approaches</b> seemed to work best</li>
-        <li>A focus on <b>simplicity and task accomplishment</b></li>
-        <li><b>Reduce friction</b> where possible (e.g. asking only for necessary information, allow for guest scheduling)</li>
+        <li>Creating a <b>guided scheduling flow</b></li>
+        <li><b>Renaming</b> appointment types and <b>adding descriptions</b> to improve understanding</li>
+        <li><b>Improving clarity</b> of the patient and visit information forms</li>
+        <li>Focusing on <b>task accomplishment</b></li>
+        <li><b>Reducing friction</b> where possible (e.g. asking only for necessary information, allow for guest scheduling)</li>
       </ul>
     </div>
   </section>
@@ -149,33 +143,28 @@
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>03. Wireframes</h2>
+        <h2>02. Wireframes</h2>
       </div>
       <p>Using Figma, I created two wireframe options for adding a guided approach to the Online Scheduling product:</p>
       <ul>
         <li>Option 1 was a contained scheduling widget on the doctor profile page with multiple steps</li>
         <li>Option 2 launched a new page with step-by-step questions</li>
       </ul>
-      <div class="img-bg">
         <img src="images/scheduling-option-1.png" alt="scheduling-option-1" id="scheduling-option-1"/>
         <h5>Option 1</h5>
         <img src="images/scheduling-option-2.png" alt="scheduling-option-2" id="scheduling-option-2"/>
         <h5>Option 2</h5>
-      </div>
     </div>
   </section>
   <!-- User testing -->
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>04. Rapid prototyping + user testing</h2>
+        <h2>03. Rapid prototyping + user testing</h2>
       </div>
       <p>I created prototypes in Figma and launched 2 <b>usability tests</b> in Userzoom, 1 for desktop and 1 for mobile responsive, which received 150 and 115 responses respectively.</p>
       <p>I found that users were able to complete their task of scheduling an appointment <b>5-6 seconds faster</b> using Option 2 instead of Option 1. Ease of use scores were fairly similar across options, though Option 2 outperformed Option 1 on desktop.</p>
-      <div class="img-bg">
         <img src="images/scheduling-usability-test.png" alt="sscheduling-usability-test"/>
-        <h5>Usability test results</h5>
-      </div>
       <p>Some of the qualitative feedback I received:</p>
       <ul>
         <li>“There was a lot of information on that page which could get quite overwhelming while I’m trying to schedule an appointment”</li>
@@ -189,13 +178,10 @@
   <section class="no-bg">
     <div class="container" id="text">
       <div class="title">
-        <h2>05. High-fidelity mockups</h2>
+        <h2>04. High-fidelity mockups</h2>
       </div>
       <p>The finalized design is a guided, step by step process that makes it easy for the user to select the right appointment type, whether they are using a computer or their mobile device. It is fast, easy-to-use, and users can keep track of their progress through the flow with the progress indicator.</p>
-      <div class="img-bg">
         <img src="images/guided-scheduling-flow.png" alt="guided-scheduling-flow" id="guided-scheduling-flow"/>
-        <h5>Guided scheduling flow</h5>
-      </div>
     </div>
   </section>
   <!-- outcomes -->
